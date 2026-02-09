@@ -1,0 +1,253 @@
+{
+  "nav": {
+    "home": "Home",
+    "pricing": "Pricing",
+    "about": "About Us",
+    "blog": "Blog"
+  },
+  "home": {
+    "hero": {
+      "title": "Best IPTV in Hungary",
+      "description": "Stream thousands of channels in HD and 4K. Watch live TV, sports, movies, and series on any device. Premium quality at unbeatable prices.",
+      "cta": "View Plans"
+    },
+    "services": {
+      "title": "Our Services",
+      "items": [
+        {
+          "title": "HD & 4K Quality",
+          "description": "Crystal-clear picture quality with support for Full HD and 4K streaming on compatible devices."
+        },
+        {
+          "title": "24/7 Support",
+          "description": "Our dedicated support team is available around the clock to help you with any questions or technical issues."
+        },
+        {
+          "title": "All Devices",
+          "description": "Watch on Smart TV, Android, iOS, Fire Stick, or any device. One subscription, unlimited screens."
+        },
+        {
+          "title": "No Contract",
+          "description": "Flexible plans with no long-term commitment. Cancel anytime, no hidden fees."
+        }
+      ]
+    },
+    "channels": {
+      "title": "Worldwide Channels",
+      "items": [
+        { "name": "BBC" },
+        { "name": "CNN" },
+        { "name": "Disney" },
+        { "name": "Sky" },
+        { "name": "Eurosport" },
+        { "name": "National Geographic" }
+      ]
+    },
+    "hboPrime": {
+      "title": "HBO & Prime Content",
+      "items": [
+        { "name": "HBO Max" },
+        { "name": "Prime Video" },
+        { "name": "HBO Originals" },
+        { "name": "Amazon Originals" }
+      ]
+    },
+    "sports": {
+      "title": "Sport & Events",
+      "items": [
+        { "name": "Champions League" },
+        { "name": "La Liga" },
+        { "name": "Premier League" },
+        { "name": "Formula 1" },
+        { "name": "UEFA Euro" }
+      ]
+    },
+    "pricing": {
+      "title": "Choose Your Plan",
+      "cta": "Get Started",
+      "popular": "Popular",
+      "plans": [
+        {
+          "id": "monthly",
+          "name": "Monthly",
+          "price": "9.99",
+          "period": "/month",
+          "features": ["1000+ channels", "HD & 4K", "All devices", "24/7 support"]
+        },
+        {
+          "id": "3months",
+          "name": "3 Months",
+          "price": "24.99",
+          "period": "/3 months",
+          "features": ["1000+ channels", "HD & 4K", "All devices", "24/7 support", "Save 17%"]
+        },
+        {
+          "id": "6months",
+          "name": "6 Months",
+          "price": "44.99",
+          "period": "/6 months",
+          "features": ["1000+ channels", "HD & 4K", "All devices", "24/7 support", "Save 25%"],
+          "popular": true
+        },
+        {
+          "id": "yearly",
+          "name": "Yearly",
+          "price": "79.99",
+          "period": "/year",
+          "features": ["1000+ channels", "HD & 4K", "All devices", "24/7 support", "Save 33%"]
+        }
+      ]
+    },
+    "devices": {
+      "title": "Stream on All Devices",
+      "subtitle": "One subscription, watch anywhere. TV, phone, tablet, laptop – your choice.",
+      "items": [
+        { "name": "Smart TV" },
+        { "name": "Phone" },
+        { "name": "Tablet" },
+        { "name": "Laptop" }
+      ]
+    },
+    "faq": {
+      "title": "Frequently Asked Questions",
+      "items": [
+        {
+          "question": "What is IPTV?",
+          "answer": "IPTV (Internet Protocol Television) delivers TV content over the internet instead of cable or satellite. You can watch live TV, movies, and series on any device with an internet connection."
+        },
+        {
+          "question": "How do I pay?",
+          "answer": "We accept various payment methods including credit card, PayPal, and bank transfer. Contact our support via WhatsApp to complete your order."
+        },
+        {
+          "question": "Which devices are supported?",
+          "answer": "Our service works on Smart TVs, Android TV, Fire Stick, Android phones/tablets, iPhones, iPads, Windows, Mac, and many IPTV set-top boxes."
+        },
+        {
+          "question": "Is there a free trial?",
+          "answer": "We offer a 24-hour trial for new customers. Contact us via WhatsApp to get free access and test our service before subscribing."
+        },
+        {
+          "question": "How do I cancel?",
+          "answer": "No long-term contract required. Your subscription will not auto-renew. Simply do not renew when your plan expires."
+        }
+      ]
+    },
+    "testimonials": {
+      "title": "What Our Customers Say",
+      "items": [
+        {
+          "quote": "Best IPTV service I've used in Hungary. Excellent quality and support!",
+          "name": "Peter K."
+        },
+        {
+          "quote": "Great value for money. All my favourite channels in one place.",
+          "name": "Anna M."
+        },
+        {
+          "quote": "Fast setup and works perfectly on my Smart TV and phone.",
+          "name": "Laszlo S."
+        }
+      ]
+    }
+  },
+  "footer": {
+    "terms": "Terms of Service",
+    "refund": "Refund Policy",
+    "privacy": "Privacy Policy",
+    "copyright": "© 2025 Hungary IPTV. All rights reserved."
+  },
+  "pricing": {
+    "title": "Choose Your Plan",
+    "subtitle": "Select the plan that fits your needs. All plans include 1000+ channels and 24/7 support.",
+    "cta": "Get Started",
+    "popular": "Popular",
+    "plans": [
+      {
+        "id": "monthly",
+        "name": "Monthly",
+        "price": "9.99",
+        "period": "/month",
+        "features": ["1000+ channels", "HD & 4K", "All devices", "24/7 support"]
+      },
+      {
+        "id": "3months",
+        "name": "3 Months",
+        "price": "24.99",
+        "period": "/3 months",
+        "features": ["1000+ channels", "HD & 4K", "All devices", "24/7 support", "Save 17%"]
+      },
+      {
+        "id": "6months",
+        "name": "6 Months",
+        "price": "44.99",
+        "period": "/6 months",
+        "features": ["1000+ channels", "HD & 4K", "All devices", "24/7 support", "Save 25%"],
+        "popular": true
+      },
+      {
+        "id": "yearly",
+        "name": "Yearly",
+        "price": "79.99",
+        "period": "/year",
+        "features": ["1000+ channels", "HD & 4K", "All devices", "24/7 support", "Save 33%"]
+      }
+    ]
+  },
+  "about": {
+    "title": "About Us",
+    "story": {
+      "title": "Our Story",
+      "content": "Hungary IPTV was founded to bring premium television streaming to Hungary and beyond. We believe everyone deserves access to high-quality entertainment at fair prices."
+    },
+    "mission": {
+      "title": "Our Mission",
+      "content": "To provide the best IPTV experience with reliable streams, extensive channel selection, and exceptional customer support."
+    },
+    "values": {
+      "title": "Our Values",
+      "items": [
+        { "title": "Quality", "description": "We deliver HD and 4K streams with minimal buffering." },
+        { "title": "Reliability", "description": "99.9% uptime and constant channel updates." },
+        { "title": "Support", "description": "Dedicated 24/7 support via WhatsApp." }
+      ]
+    }
+  },
+  "blog": {
+    "title": "Blog",
+    "subtitle": "News, tips, and updates from Hungary IPTV.",
+    "readMore": "Read more",
+    "posts": [
+      {
+        "slug": "getting-started-iptv",
+        "title": "Getting Started with IPTV",
+        "excerpt": "Learn how to set up your IPTV service in minutes.",
+        "date": "2025-01-15"
+      },
+      {
+        "slug": "best-devices-iptv",
+        "title": "Best Devices for IPTV Streaming",
+        "excerpt": "Discover the best devices to enjoy IPTV at home.",
+        "date": "2025-01-10"
+      },
+      {
+        "slug": "iptv-vs-cable",
+        "title": "IPTV vs Cable: Why Make the Switch?",
+        "excerpt": "Compare IPTV and traditional cable to see which is right for you.",
+        "date": "2025-01-05"
+      }
+    ]
+  },
+  "terms": {
+    "title": "Terms of Service",
+    "content": "Placeholder content for Terms of Service. Replace with your actual terms."
+  },
+  "refund": {
+    "title": "Refund Policy",
+    "content": "Placeholder content for Refund Policy. Replace with your actual refund policy."
+  },
+  "privacy": {
+    "title": "Privacy Policy",
+    "content": "Placeholder content for Privacy Policy. Replace with your actual privacy policy."
+  }
+}

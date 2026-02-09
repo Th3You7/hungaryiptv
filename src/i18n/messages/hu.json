@@ -1,0 +1,253 @@
+{
+  "nav": {
+    "home": "Főoldal",
+    "pricing": "Árazás",
+    "about": "Rólunk",
+    "blog": "Blog"
+  },
+  "home": {
+    "hero": {
+      "title": "Legjobb IPTV Magyarországon",
+      "description": "Streamelj több ezer csatornát HD és 4K minőségben. Nézd élőben a TV-t, sportot, filmeket és sorozatokat bármilyen eszközön. Primium minőség verhetetlen áron.",
+      "cta": "Nézd az árakat"
+    },
+    "services": {
+      "title": "Szolgáltatásaink",
+      "items": [
+        {
+          "title": "HD és 4K minőség",
+          "description": "Kristálytiszta képminőség Full HD és 4K streameléssel kompatibilis eszközökön."
+        },
+        {
+          "title": "24/7 Ügyfélszolgálat",
+          "description": "Számíthatsz dedikált ügyfélszolgálatunkra naponta 24 órában bármilyen kérdés esetén."
+        },
+        {
+          "title": "Minden eszközön",
+          "description": "Nézd Smart TV-n, Androidon, iOS-en, Fire Stick-en vagy bármilyen eszközön. Egy előfizetés, korlátlan képernyő."
+        },
+        {
+          "title": "Szerződés nélkül",
+          "description": "Rugalmas csomagok hosszú távú kötelezettség nélkül. Mondd fel bármikor, rejtett díjak nélkül."
+        }
+      ]
+    },
+    "channels": {
+      "title": "Világszerte csatornák",
+      "items": [
+        { "name": "BBC" },
+        { "name": "CNN" },
+        { "name": "Disney" },
+        { "name": "Sky" },
+        { "name": "Eurosport" },
+        { "name": "National Geographic" }
+      ]
+    },
+    "hboPrime": {
+      "title": "HBO és Prime tartalom",
+      "items": [
+        { "name": "HBO Max" },
+        { "name": "Prime Video" },
+        { "name": "HBO Originals" },
+        { "name": "Amazon Originals" }
+      ]
+    },
+    "sports": {
+      "title": "Sport és események",
+      "items": [
+        { "name": "Bajnokok Ligája" },
+        { "name": "La Liga" },
+        { "name": "Premier League" },
+        { "name": "Formula 1" },
+        { "name": "UEFA Európa-bajnokság" }
+      ]
+    },
+    "pricing": {
+      "title": "Válaszd a csomagodat",
+      "cta": "Vásárlás",
+      "popular": "Népszerű",
+      "plans": [
+        {
+          "id": "monthly",
+          "name": "Havi",
+          "price": "2.990",
+          "period": "/hó",
+          "features": ["1000+ csatorna", "HD és 4K", "Minden eszköz", "24/7 támogatás"]
+        },
+        {
+          "id": "3months",
+          "name": "3 Hónap",
+          "price": "7.490",
+          "period": "/3 hónap",
+          "features": ["1000+ csatorna", "HD és 4K", "Minden eszköz", "24/7 támogatás", "17% megtakarítás"]
+        },
+        {
+          "id": "6months",
+          "name": "6 Hónap",
+          "price": "13.490",
+          "period": "/6 hónap",
+          "features": ["1000+ csatorna", "HD és 4K", "Minden eszköz", "24/7 támogatás", "25% megtakarítás"],
+          "popular": true
+        },
+        {
+          "id": "yearly",
+          "name": "Éves",
+          "price": "23.990",
+          "period": "/év",
+          "features": ["1000+ csatorna", "HD és 4K", "Minden eszköz", "24/7 támogatás", "33% megtakarítás"]
+        }
+      ]
+    },
+    "devices": {
+      "title": "Streamelj minden eszközön",
+      "subtitle": "Egy előfizetés, nézd bárhol. TV, telefon, tablet, laptop – a te választásod.",
+      "items": [
+        { "name": "Smart TV" },
+        { "name": "Telefon" },
+        { "name": "Tablet" },
+        { "name": "Laptop" }
+      ]
+    },
+    "faq": {
+      "title": "Gyakran ismert kérdések",
+      "items": [
+        {
+          "question": "Mi az IPTV?",
+          "answer": "Az IPTV (Internet Protocol Television) interneten keresztül szállítja a TV tartalmakat kábel vagy műhold helyett. Élő TV-t, filmeket és sorozatokat nézhetsz bármilyen eszközön internetkapcsolattal."
+        },
+        {
+          "question": "Hogyan fizethetek?",
+          "answer": "Különböző fizetési módokat fogadunk el: bankkártya, PayPal és banki átutalás. Vedd fel a kapcsolatot ügyfélszolgálatunkkal WhatsApp-on a megrendelés befejezéséhez."
+        },
+        {
+          "question": "Milyen eszközök támogatottak?",
+          "answer": "Szolgáltatásunk Smart TV-kon, Android TV-n, Fire Stick-en, Android telefonokon/tableteken, iPhone-on, iPad-en, Windows-on, Mac-en és sok IPTV set-top box-on működik."
+        },
+        {
+          "question": "Van ingyenes próbaidő?",
+          "answer": "Új ügyfeleknek 24 órás próbaidőt kínálunk. Vedd fel velünk a kapcsolatot WhatsApp-on az ingyenes hozzáféréshez és a szolgáltatás kipróbálásához előfizetés előtt."
+        },
+        {
+          "question": "Hogyan mondhatom fel?",
+          "answer": "Nem szükséges hosszú távú szerződés. Az előfizetésed nem újul automatikusan meg. Egyszerűen ne újítsd meg, amikor a csomagod lejár."
+        }
+      ]
+    },
+    "testimonials": {
+      "title": "Amit ügyfeleink mondanak",
+      "items": [
+        {
+          "quote": "A legjobb IPTV szolgáltatás, amit Magyarországon használtam. Kiváló minőség és támogatás!",
+          "name": "Péter K."
+        },
+        {
+          "quote": "Nagyszerű ár-érték arány. Minden kedvenc csatornám egy helyen.",
+          "name": "Anna M."
+        },
+        {
+          "quote": "Gyors beállítás és tökéletesen működik Smart TV-m és telefonon is.",
+          "name": "László S."
+        }
+      ]
+    }
+  },
+  "footer": {
+    "terms": "Felhasználási feltételek",
+    "refund": "Visszatérítési politika",
+    "privacy": "Adatvédelmi irányelvek",
+    "copyright": "© 2025 Hungary IPTV. Minden jog fenntartva."
+  },
+  "pricing": {
+    "title": "Válaszd a csomagodat",
+    "subtitle": "Válaszd a neked megfelelő csomagot. Minden csomag tartalmaz 1000+ csatornát és 24/7 támogatást.",
+    "cta": "Vásárlás",
+    "popular": "Népszerű",
+    "plans": [
+      {
+        "id": "monthly",
+        "name": "Havi",
+        "price": "2.990",
+        "period": "/hó",
+        "features": ["1000+ csatorna", "HD és 4K", "Minden eszköz", "24/7 támogatás"]
+      },
+      {
+        "id": "3months",
+        "name": "3 Hónap",
+        "price": "7.490",
+        "period": "/3 hónap",
+        "features": ["1000+ csatorna", "HD és 4K", "Minden eszköz", "24/7 támogatás", "17% megtakarítás"]
+      },
+      {
+        "id": "6months",
+        "name": "6 Hónap",
+        "price": "13.490",
+        "period": "/6 hónap",
+        "features": ["1000+ csatorna", "HD és 4K", "Minden eszköz", "24/7 támogatás", "25% megtakarítás"],
+        "popular": true
+      },
+      {
+        "id": "yearly",
+        "name": "Éves",
+        "price": "23.990",
+        "period": "/év",
+        "features": ["1000+ csatorna", "HD és 4K", "Minden eszköz", "24/7 támogatás", "33% megtakarítás"]
+      }
+    ]
+  },
+  "about": {
+    "title": "Rólunk",
+    "story": {
+      "title": "Történetünk",
+      "content": "A Hungary IPTV annak született, hogy primium televíziós streamelést hozzon Magyarországra és a világ többi részére. Úgy gondoljuk, mindenkinek jár a magas minőségű szórakoztatás tisztességes áron."
+    },
+    "mission": {
+      "title": "Missziónk",
+      "content": "A legjobb IPTV élmény nyújtása megbízható streamekkel, széles csatornaválasztékkal és kivételes ügyfélszolgálattal."
+    },
+    "values": {
+      "title": "Értékeink",
+      "items": [
+        { "title": "Minőség", "description": "HD és 4K streameket szállítunk minimális bufferinggel." },
+        { "title": "Megbízhatóság", "description": "99.9% futási idő és folyamatos csatornafrissítések." },
+        { "title": "Támogatás", "description": "Dedikált 24/7 támogatás WhatsApp-on." }
+      ]
+    }
+  },
+  "blog": {
+    "title": "Blog",
+    "subtitle": "Hírek, tippek és frissítések a Hungary IPTV-től.",
+    "readMore": "Tovább olvasom",
+    "posts": [
+      {
+        "slug": "getting-started-iptv",
+        "title": "Ismerkedés az IPTV-vel",
+        "excerpt": "Tanuld meg, hogyan állítsd be az IPTV szolgáltatásod percek alatt.",
+        "date": "2025-01-15"
+      },
+      {
+        "slug": "best-devices-iptv",
+        "title": "Legjobb eszközök IPTV streameléshez",
+        "excerpt": "Fedezd fel a legjobb eszközöket az IPTV otthoni élvezetéhez.",
+        "date": "2025-01-10"
+      },
+      {
+        "slug": "iptv-vs-cable",
+        "title": "IPTV vs kábel: Miért válts?",
+        "excerpt": "Hasonlítsd össze az IPTV-t és a hagyományos kábelt, hogy meglásd, melyik jó neked.",
+        "date": "2025-01-05"
+      }
+    ]
+  },
+  "terms": {
+    "title": "Felhasználási feltételek",
+    "content": "Helyfoglaló tartalom a felhasználási feltételekhez. Cseréld ki az aktuális feltételeidre."
+  },
+  "refund": {
+    "title": "Visszatérítési politika",
+    "content": "Helyfoglaló tartalom a visszatérítési politikához. Cseréld ki az aktuális politikádra."
+  },
+  "privacy": {
+    "title": "Adatvédelmi irányelvek",
+    "content": "Helyfoglaló tartalom az adatvédelmi irányelvekhez. Cseréld ki az aktuális irányelveidre."
+  }
+}
