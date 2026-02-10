@@ -7,7 +7,7 @@ import { LanguageSwitcher } from './LanguageSwitcher';
 
 interface HeaderProps {
   locale: Locale;
-  messages: { nav: { home: string; pricing: string; about: string; blog: string } };
+  messages: { nav: { home: string; pricing: string; about: string; blog: string; startTrial: string } };
 }
 
 const navLinks = [
@@ -47,10 +47,25 @@ export function Header({ locale, messages }: HeaderProps) {
                 </Link>
               </li>
             ))}
+            <li className="md:hidden">
+              <Link
+                href={`/${locale}#pricing`}
+                className="block min-h-[44px] px-4 py-3 font-medium text-primary transition-colors hover:bg-surface md:min-h-0 md:py-0"
+                onClick={() => setMobileMenuOpen(false)}
+              >
+                {messages.nav.startTrial}
+              </Link>
+            </li>
           </ul>
         </nav>
 
-        <div className="flex items-center gap-4">
+        <div className="flex items-center gap-3">
+          <Link
+            href={`/${locale}#pricing`}
+            className="hidden min-h-[44px] items-center justify-center rounded bg-primary px-4 py-2 text-sm font-medium text-white transition-colors hover:bg-[#f40612] md:flex"
+          >
+            {messages.nav.startTrial}
+          </Link>
           <LanguageSwitcher />
           <button
             type="button"

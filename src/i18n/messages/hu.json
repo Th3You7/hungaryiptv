@@ -3,63 +3,69 @@
     "home": "Főoldal",
     "pricing": "Árazás",
     "about": "Rólunk",
-    "blog": "Blog"
+    "blog": "Blog",
+    "startTrial": "Ingyenes próba"
   },
   "home": {
     "hero": {
       "title": "Legjobb IPTV Magyarországon",
       "description": "Streamelj több ezer csatornát HD és 4K minőségben. Nézd élőben a TV-t, sportot, filmeket és sorozatokat bármilyen eszközön. Primium minőség verhetetlen áron.",
-      "cta": "Nézd az árakat"
+      "cta": "Nézd az árakat",
+      "ctaTrial": "Ingyenes próba indulása"
     },
     "services": {
       "title": "Szolgáltatásaink",
       "items": [
         {
           "title": "HD és 4K minőség",
-          "description": "Kristálytiszta képminőség Full HD és 4K streameléssel kompatibilis eszközökön."
+          "description": "Kristálytiszta képminőség Full HD és 4K streameléssel kompatibilis eszközökön. Filmeket, sportot és élő TV-t a legélesebb minőségben nézhetsz minimális bufferinggel és stabil streamekkel."
         },
         {
           "title": "24/7 Ügyfélszolgálat",
-          "description": "Számíthatsz dedikált ügyfélszolgálatunkra naponta 24 órában bármilyen kérdés esetén."
+          "description": "Dedikált ügyfélszolgálatunk naponta 24 órában elérhető bármilyen kérdés vagy technikai probléma esetén. Gyors válaszokat kapsz WhatsApp-on, hogy gondtalanul élvezhesd a csatornákat."
         },
         {
           "title": "Minden eszközön",
-          "description": "Nézd Smart TV-n, Androidon, iOS-en, Fire Stick-en vagy bármilyen eszközön. Egy előfizetés, korlátlan képernyő."
+          "description": "Nézd Smart TV-n, Androidon, iOS-en, Fire Stick-en vagy bármilyen eszközön. Egy előfizetéssel korlátlan képernyő—az egész család egyszerre streamelhet TV-n, telefonon, tableten vagy laptopon."
         },
         {
           "title": "Szerződés nélkül",
-          "description": "Rugalmas csomagok hosszú távú kötelezettség nélkül. Mondd fel bármikor, rejtett díjak nélkül."
+          "description": "Rugalmas csomagok hosszú távú kötelezettség nélkül. Mondd fel bármikor, rejtett díjak vagy automatikus megújítás nélkül. Te irányítod az előfizetésedet."
+        },
+        {
+          "title": "Azonnali aktiválás",
+          "description": "A szolgáltatás a fizetés után azonnal aktiválódik. Nincs várakozás—perceken belül nézhetsz. Azonnal megküldjük a belépési adataidat, hogy késleltetés nélkül streamelhess."
+        },
+        {
+          "title": "Elégedettség vagy visszatérítés",
+          "description": "Támogatjuk szolgáltatásunkat. Ha nem vagy elégedett, világos visszatérítési politikát kínálunk. Az elégedettséged a prioritásunk, ezért nyugodtan kipróbálhatsz minket."
         }
       ]
     },
     "channels": {
       "title": "Világszerte csatornák",
       "items": [
-        { "name": "BBC" },
-        { "name": "CNN" },
-        { "name": "Disney" },
-        { "name": "Sky" },
-        { "name": "Eurosport" },
-        { "name": "National Geographic" }
-      ]
-    },
-    "hboPrime": {
-      "title": "HBO és Prime tartalom",
-      "items": [
-        { "name": "HBO Max" },
-        { "name": "Prime Video" },
-        { "name": "HBO Originals" },
-        { "name": "Amazon Originals" }
+        { "name": "BBC", "image": "ailnh6899rqmqqmkgcr7" },
+        { "name": "CNN", "image": "l3tg90dlgcy9o1aovcnp" },
+        { "name": "Disney", "image": "pdimefqyhjnmiffo1rbx" },
+        { "name": "Sky", "image": "po6mfcsypsfndu8kcnnd" },
+        { "name": "Viaplay", "image": "viaplay" },
+        { "name": "Videoland", "image": "videoland" },
+        { "name": "Eurosport", "image": "vusbchgfvoc9j2d4itxd" },
+        { "name": "National Geographic", "image": "wihfqvokbmwnrip9y8zd" },
+        { "name": "Discovery", "image": "wiv6savggkgunzatehtn" },
+        { "name": "Sport TV", "image": "xmix0bcxtukuyppzqnjs" },
+        { "name": "HBO", "image": "xza5bjxn5cs0uiny8wrr" }
       ]
     },
     "sports": {
       "title": "Sport és események",
       "items": [
-        { "name": "Bajnokok Ligája" },
-        { "name": "La Liga" },
-        { "name": "Premier League" },
-        { "name": "Formula 1" },
-        { "name": "UEFA Európa-bajnokság" }
+        { "name": "Premier League", "image": "premier_league" },
+        { "name": "La Liga", "image": "liga" },
+        { "name": "Serie A", "image": "serie_a" },
+        { "name": "Bundesliga", "image": "bundesliga" },
+        { "name": "Liga Portugal", "image": "liga_por" }
       ]
     },
     "pricing": {
@@ -147,6 +153,26 @@
         {
           "quote": "Gyors beállítás és tökéletesen működik Smart TV-m és telefonon is.",
           "name": "László S."
+        },
+        {
+          "quote": "Szuper megbízható streamek, nincs buffering. Az ügyfélszolgálat percek alatt válaszolt. Nagyon ajánlom!",
+          "name": "Dávid T."
+        },
+        {
+          "quote": "Végre találtam egy IPTV-t, ami minden kívánt sportot HD-ban adja. Nagyon elégedett vagyok a minőséggel.",
+          "name": "Márk R."
+        },
+        {
+          "quote": "Tisztességes ár és azonnali aktiválás. 10 percen belül néztem a fizetés után. Remek.",
+          "name": "Sára L."
+        },
+        {
+          "quote": "Már 6 hónapja náluk vagyok. Semmi probléma. A legjobb döntés volt a házi szórakoztatásomra.",
+          "name": "Jakab N."
+        },
+        {
+          "quote": "Tiszta kép, rengeteg csatorna, és a támogatás tényleg segít. 10/10, mindenkinek ajánlom.",
+          "name": "Elena V."
         }
       ]
     }

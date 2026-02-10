@@ -6,7 +6,7 @@ import { Carousel } from '@/components/Carousel';
 import { ChannelCard } from '@/components/home/ChannelCard';
 import { SportEventCard } from '@/components/home/SportEventCard';
 import { PricingCard } from '@/components/home/PricingCard';
-import { DeviceCard } from '@/components/home/DeviceCard';
+import Image from 'next/image';
 import { FAQ } from '@/components/home/FAQ';
 import { TestimonialCard } from '@/components/home/TestimonialCard';
 
@@ -21,7 +21,7 @@ export default async function HomePage({
 }) {
   const { locale } = await params;
   const messages = await getMessages(locale as Locale);
-  const { hero, services, channels, hboPrime, sports, pricing, devices, faq, testimonials } =
+  const { hero, services, channels, sports, pricing, devices, faq, testimonials } =
     messages.home;
 
   return (
@@ -30,6 +30,7 @@ export default async function HomePage({
         title={hero.title}
         description={hero.description}
         cta={hero.cta}
+        ctaTrial={hero.ctaTrial}
         locale={locale}
       />
       <div className="mx-auto max-w-6xl px-4 md:px-8">
@@ -49,20 +50,14 @@ export default async function HomePage({
         </section>
 
         <Carousel title={channels.title}>
-          {channels.items.map((item: { name: string }) => (
-            <ChannelCard key={item.name} name={item.name} />
-          ))}
-        </Carousel>
-
-        <Carousel title={hboPrime.title}>
-          {hboPrime.items.map((item: { name: string }) => (
-            <ChannelCard key={item.name} name={item.name} />
+          {channels.items.map((item: { name: string; image?: string }) => (
+            <ChannelCard key={item.name} name={item.name} image={item.image} />
           ))}
         </Carousel>
 
         <Carousel title={sports.title}>
-          {sports.items.map((item: { name: string }) => (
-            <SportEventCard key={item.name} name={item.name} />
+          {sports.items.map((item: { name: string; image?: string }) => (
+            <SportEventCard key={item.name} name={item.name} image={item.image} />
           ))}
         </Carousel>
 
@@ -92,10 +87,15 @@ export default async function HomePage({
             {devices.title}
           </h2>
           <p className="mb-8 text-muted">{devices.subtitle}</p>
-          <div className="grid gap-6 grid-cols-2 sm:grid-cols-2 md:grid-cols-4">
-            {devices.items.map((item: { name: string }) => (
-              <DeviceCard key={item.name} name={item.name} />
-            ))}
+          <div className="overflow-hidden rounded-lg border border-surface-elevated bg-surface">
+            <Image
+              src="/images/devices/devices.webp"
+              alt="Stream on all devices"
+              width={1200}
+              height={600}
+              className="w-full object-contain"
+              sizes="(max-width: 768px) 100vw, 1200px"
+            />
           </div>
         </section>
 

@@ -3,63 +3,69 @@
     "home": "Home",
     "pricing": "Pricing",
     "about": "About Us",
-    "blog": "Blog"
+    "blog": "Blog",
+    "startTrial": "Start a free trial"
   },
   "home": {
     "hero": {
       "title": "Best IPTV in Hungary",
       "description": "Stream thousands of channels in HD and 4K. Watch live TV, sports, movies, and series on any device. Premium quality at unbeatable prices.",
-      "cta": "View Plans"
+      "cta": "View Plans",
+      "ctaTrial": "Start a free trial"
     },
     "services": {
       "title": "Our Services",
       "items": [
         {
           "title": "HD & 4K Quality",
-          "description": "Crystal-clear picture quality with support for Full HD and 4K streaming on compatible devices."
+          "description": "Crystal-clear picture quality with full support for Full HD and 4K streaming on compatible devices. Enjoy movies, sports, and live TV in the sharpest detail with minimal buffering and stable streams."
         },
         {
           "title": "24/7 Support",
-          "description": "Our dedicated support team is available around the clock to help you with any questions or technical issues."
+          "description": "Our dedicated support team is available around the clock to help you with any questions or technical issues. Get fast responses via WhatsApp so you can enjoy your channels without hassle."
         },
         {
           "title": "All Devices",
-          "description": "Watch on Smart TV, Android, iOS, Fire Stick, or any device. One subscription, unlimited screens."
+          "description": "Watch on Smart TV, Android, iOS, Fire Stick, or any device. One subscription gives you unlimited screens so the whole family can stream at once from TV, phone, tablet, or laptop."
         },
         {
           "title": "No Contract",
-          "description": "Flexible plans with no long-term commitment. Cancel anytime, no hidden fees."
+          "description": "Flexible plans with no long-term commitment. Cancel anytime with no hidden fees or auto-renewal traps. You stay in control of your subscription."
+        },
+        {
+          "title": "Instant Activation",
+          "description": "Your service is activated immediately after payment. No waiting—start watching within minutes. We send your credentials right away so you can stream without delay."
+        },
+        {
+          "title": "Satisfy or Refund",
+          "description": "We stand behind our service. If you are not satisfied, we offer a clear refund policy. Your satisfaction is our priority, so you can try us with confidence."
         }
       ]
     },
     "channels": {
       "title": "Worldwide Channels",
       "items": [
-        { "name": "BBC" },
-        { "name": "CNN" },
-        { "name": "Disney" },
-        { "name": "Sky" },
-        { "name": "Eurosport" },
-        { "name": "National Geographic" }
-      ]
-    },
-    "hboPrime": {
-      "title": "HBO & Prime Content",
-      "items": [
-        { "name": "HBO Max" },
-        { "name": "Prime Video" },
-        { "name": "HBO Originals" },
-        { "name": "Amazon Originals" }
+        { "name": "BBC", "image": "ailnh6899rqmqqmkgcr7" },
+        { "name": "CNN", "image": "l3tg90dlgcy9o1aovcnp" },
+        { "name": "Disney", "image": "pdimefqyhjnmiffo1rbx" },
+        { "name": "Sky", "image": "po6mfcsypsfndu8kcnnd" },
+        { "name": "Viaplay", "image": "viaplay" },
+        { "name": "Videoland", "image": "videoland" },
+        { "name": "Eurosport", "image": "vusbchgfvoc9j2d4itxd" },
+        { "name": "National Geographic", "image": "wihfqvokbmwnrip9y8zd" },
+        { "name": "Discovery", "image": "wiv6savggkgunzatehtn" },
+        { "name": "Sport TV", "image": "xmix0bcxtukuyppzqnjs" },
+        { "name": "HBO", "image": "xza5bjxn5cs0uiny8wrr" }
       ]
     },
     "sports": {
       "title": "Sport & Events",
       "items": [
-        { "name": "Champions League" },
-        { "name": "La Liga" },
-        { "name": "Premier League" },
-        { "name": "Formula 1" },
-        { "name": "UEFA Euro" }
+        { "name": "Premier League", "image": "premier_league" },
+        { "name": "La Liga", "image": "liga" },
+        { "name": "Serie A", "image": "serie_a" },
+        { "name": "Bundesliga", "image": "bundesliga" },
+        { "name": "Liga Portugal", "image": "liga_por" }
       ]
     },
     "pricing": {
@@ -147,6 +153,26 @@
         {
           "quote": "Fast setup and works perfectly on my Smart TV and phone.",
           "name": "Laszlo S."
+        },
+        {
+          "quote": "Super reliable streams, no buffering. Customer service replied in minutes. Highly recommend!",
+          "name": "David T."
+        },
+        {
+          "quote": "Finally found an IPTV that has all the sports I want in HD. Very happy with the quality.",
+          "name": "Mark R."
+        },
+        {
+          "quote": "Fair price and instant activation. Was watching within 10 minutes of paying. Brilliant.",
+          "name": "Sarah L."
+        },
+        {
+          "quote": "Been with them for 6 months now. Zero issues. Best decision I made for home entertainment.",
+          "name": "James N."
+        },
+        {
+          "quote": "Clear picture, lots of channels, and the support team actually helps. 10/10 would recommend.",
+          "name": "Elena V."
         }
       ]
     }
