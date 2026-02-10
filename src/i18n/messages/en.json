@@ -9,12 +9,13 @@
   "home": {
     "hero": {
       "title": "Best IPTV in Hungary",
-      "description": "Stream thousands of channels in HD and 4K. Watch live TV, sports, movies, and series on any device. Premium quality at unbeatable prices.",
+      "description": "Stream more than 50,000 channels in HD and 4K. Watch live TV, sports, movies, and series on any device. Premium quality at unbeatable prices.",
       "cta": "View Plans",
       "ctaTrial": "Start a free trial"
     },
     "services": {
       "title": "Our Services",
+      "subtitle": "Hungary IPTV brings you premium streaming with no freeze, free guidance, and 50,000+ channels in FHD, 4K and 8K.",
       "items": [
         {
           "title": "HD & 4K Quality",
@@ -44,6 +45,7 @@
     },
     "channels": {
       "title": "Worldwide Channels",
+      "subtitle": "Watch the best Hungary IPTV channel lineup: sports, news, movies and entertainment from around the world.",
       "items": [
         { "name": "BBC", "image": "ailnh6899rqmqqmkgcr7" },
         { "name": "CNN", "image": "l3tg90dlgcy9o1aovcnp" },
@@ -60,6 +62,7 @@
     },
     "sports": {
       "title": "Sport & Events",
+      "subtitle": "Hungary IPTV streams live sports and events in HD—Premier League, La Liga, Serie A, Bundesliga and more.",
       "items": [
         { "name": "Premier League", "image": "premier_league" },
         { "name": "La Liga", "image": "liga" },
@@ -70,43 +73,44 @@
     },
     "pricing": {
       "title": "Choose Your Plan",
-      "cta": "Get Started",
+      "subtitle": "Affordable Hungary IPTV plans with 50,000+ channels, no freeze and free guidance. Choose monthly or save with longer plans.",
+      "cta": "Buy now",
       "popular": "Popular",
       "plans": [
         {
           "id": "monthly",
           "name": "Monthly",
-          "price": "9.99",
+          "price": "15",
           "period": "/month",
-          "features": ["1000+ channels", "HD & 4K", "All devices", "24/7 support"]
+          "features": ["50,000+ channels", "No freeze", "Free guidance", "FHD, 4K, 8K", "All devices", "24/7 support"]
         },
         {
           "id": "3months",
           "name": "3 Months",
-          "price": "24.99",
+          "price": "30",
           "period": "/3 months",
-          "features": ["1000+ channels", "HD & 4K", "All devices", "24/7 support", "Save 17%"]
+          "features": ["50,000+ channels", "No freeze", "Free guidance", "FHD, 4K, 8K", "All devices", "24/7 support", "Save 17%"]
         },
         {
           "id": "6months",
           "name": "6 Months",
-          "price": "44.99",
+          "price": "40",
           "period": "/6 months",
-          "features": ["1000+ channels", "HD & 4K", "All devices", "24/7 support", "Save 25%"],
+          "features": ["50,000+ channels", "No freeze", "Free guidance", "FHD, 4K, 8K", "All devices", "24/7 support", "Save 25%"],
           "popular": true
         },
         {
           "id": "yearly",
           "name": "Yearly",
-          "price": "79.99",
+          "price": "60",
           "period": "/year",
-          "features": ["1000+ channels", "HD & 4K", "All devices", "24/7 support", "Save 33%"]
+          "features": ["50,000+ channels", "No freeze", "Free guidance", "FHD, 4K, 8K", "All devices", "24/7 support", "Save 33%"]
         }
       ]
     },
     "devices": {
       "title": "Stream on All Devices",
-      "subtitle": "One subscription, watch anywhere. TV, phone, tablet, laptop – your choice.",
+      "subtitle": "With Hungary IPTV, one subscription lets you watch anywhere—TV, phone, tablet or laptop.",
       "items": [
         { "name": "Smart TV" },
         { "name": "Phone" },
@@ -116,6 +120,7 @@
     },
     "faq": {
       "title": "Frequently Asked Questions",
+      "subtitle": "Common questions about Hungary IPTV: setup, payment, devices and support.",
       "items": [
         {
           "question": "What is IPTV?",
@@ -141,6 +146,7 @@
     },
     "testimonials": {
       "title": "What Our Customers Say",
+      "subtitle": "See why customers choose Hungary IPTV for streaming—quality, support and value.",
       "items": [
         {
           "quote": "Best IPTV service I've used in Hungary. Excellent quality and support!",
@@ -185,38 +191,38 @@
   },
   "pricing": {
     "title": "Choose Your Plan",
-    "subtitle": "Select the plan that fits your needs. All plans include 1000+ channels and 24/7 support.",
-    "cta": "Get Started",
+    "subtitle": "Select the plan that fits your needs. All plans include 50,000+ channels and 24/7 support.",
+    "cta": "Buy now",
     "popular": "Popular",
     "plans": [
       {
         "id": "monthly",
         "name": "Monthly",
-        "price": "9.99",
+        "price": "15",
         "period": "/month",
-        "features": ["1000+ channels", "HD & 4K", "All devices", "24/7 support"]
+        "features": ["50,000+ channels", "No freeze", "Free guidance", "FHD, 4K, 8K", "All devices", "24/7 support"]
       },
       {
         "id": "3months",
         "name": "3 Months",
-        "price": "24.99",
+        "price": "30",
         "period": "/3 months",
-        "features": ["1000+ channels", "HD & 4K", "All devices", "24/7 support", "Save 17%"]
+        "features": ["50,000+ channels", "No freeze", "Free guidance", "FHD, 4K, 8K", "All devices", "24/7 support", "Save 17%"]
       },
       {
         "id": "6months",
         "name": "6 Months",
-        "price": "44.99",
+        "price": "40",
         "period": "/6 months",
-        "features": ["1000+ channels", "HD & 4K", "All devices", "24/7 support", "Save 25%"],
+        "features": ["50,000+ channels", "No freeze", "Free guidance", "FHD, 4K, 8K", "All devices", "24/7 support", "Save 25%"],
         "popular": true
       },
       {
         "id": "yearly",
         "name": "Yearly",
-        "price": "79.99",
+        "price": "60",
         "period": "/year",
-        "features": ["1000+ channels", "HD & 4K", "All devices", "24/7 support", "Save 33%"]
+        "features": ["50,000+ channels", "No freeze", "Free guidance", "FHD, 4K, 8K", "All devices", "24/7 support", "Save 33%"]
       }
     ]
   },
@@ -243,26 +249,7 @@
     "title": "Blog",
     "subtitle": "News, tips, and updates from Hungary IPTV.",
     "readMore": "Read more",
-    "posts": [
-      {
-        "slug": "getting-started-iptv",
-        "title": "Getting Started with IPTV",
-        "excerpt": "Learn how to set up your IPTV service in minutes.",
-        "date": "2025-01-15"
-      },
-      {
-        "slug": "best-devices-iptv",
-        "title": "Best Devices for IPTV Streaming",
-        "excerpt": "Discover the best devices to enjoy IPTV at home.",
-        "date": "2025-01-10"
-      },
-      {
-        "slug": "iptv-vs-cable",
-        "title": "IPTV vs Cable: Why Make the Switch?",
-        "excerpt": "Compare IPTV and traditional cable to see which is right for you.",
-        "date": "2025-01-05"
-      }
-    ]
+    "backToBlog": "Back to blog"
   },
   "terms": {
     "title": "Terms of Service",

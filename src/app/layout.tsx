@@ -13,9 +13,33 @@ const sourceSans = Source_Sans_3({
   subsets: ['latin'],
 });
 
+const siteUrl = process.env.NEXT_PUBLIC_SITE_URL ?? 'https://hungaryiptv.net';
+
 export const metadata: Metadata = {
-  title: 'Hungary IPTV | Best IPTV in Hungary',
-  description: 'Stream thousands of channels in HD and 4K. Best IPTV service in Hungary.',
+  metadataBase: new URL(siteUrl),
+  title: {
+    default: 'Hungary IPTV | Best IPTV in Hungary',
+    template: '%s | Hungary IPTV',
+  },
+  description: 'Stream 50,000+ channels in FHD, 4K and 8K. Best IPTV service in Hungary. No freeze, free guidance.',
+  keywords: ['Hungary IPTV', 'IPTV Hungary', 'IPTV', 'streaming', 'live TV', '50,000+ channels', 'FHD 4K 8K'],
+  openGraph: {
+    type: 'website',
+    siteName: 'Hungary IPTV',
+    images: [{ url: '/images/logo/logo.webp', width: 512, height: 512, alt: 'huIPTV' }],
+  },
+  twitter: {
+    card: 'summary',
+    title: 'Hungary IPTV | Best IPTV in Hungary',
+    description: 'Stream 50,000+ channels in FHD, 4K and 8K. Best IPTV in Hungary.',
+  },
+  icons: {
+    icon: '/images/logo/logo.webp',
+    apple: '/images/logo/logo.webp',
+  },
+  alternates: {
+    canonical: '/',
+  },
 };
 
 export default function RootLayout({

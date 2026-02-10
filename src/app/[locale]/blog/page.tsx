@@ -1,4 +1,6 @@
+import Link from 'next/link';
 import { getMessages } from '@/i18n/getMessages';
+import { getPostsForLocale } from '@/lib/blog';
 import { locales, type Locale } from '@/i18n/config';
 
 export function generateStaticParams() {
@@ -13,6 +15,7 @@ export default async function BlogPage({
   const { locale } = await params;
   const messages = await getMessages(locale as Locale);
   const { blog } = messages;
+  const posts = await getPostsForLocale(locale as Locale);
 
   return (
     <div className="mx-auto max-w-4xl px-4 py-12 md:px-8 md:py-16">
@@ -21,12 +24,13 @@ export default async function BlogPage({
       </h1>
       <p className="mb-12 text-muted">{blog.subtitle}</p>
       <div className="space-y-8">
-        {blog.posts.map((post: { slug: string; title: string; excerpt: string; date: string }) => (
-          <article
+        {posts.map((post) => (
+          <Link
             key={post.slug}
-            className="rounded-lg border border-surface-elevated bg-surface p-6 transition-colors hover:border-primary/50"
+            href={`/${locale}/blog/${post.slug}`}
+            className="block rounded-lg border border-surface-elevated bg-surface p-6 transition-colors hover:border-primary/50"
           >
-            <time className="text-sm text-dim" dateTime={post.date}>
+            <time className="text-sm text-muted" dateTime={post.date}>
               {post.date}
             </time>
             <h2 className="mt-2 font-heading text-xl font-bold text-foreground">
@@ -36,7 +40,7 @@ export default async function BlogPage({
             <span className="mt-4 inline-block text-sm font-medium text-primary">
               {blog.readMore} →
             </span>
-          </article>
+          </Link>
         ))}
       </div>
     </div>

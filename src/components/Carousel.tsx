@@ -5,10 +5,11 @@ import { useRef } from 'react';
 interface CarouselProps {
   children: React.ReactNode;
   title?: string;
+  subtitle?: string;
   className?: string;
 }
 
-export function Carousel({ children, title, className = '' }: CarouselProps) {
+export function Carousel({ children, title, subtitle, className = '' }: CarouselProps) {
   const scrollRef = useRef<HTMLDivElement>(null);
 
   const scroll = (direction: 'left' | 'right') => {
@@ -23,9 +24,12 @@ export function Carousel({ children, title, className = '' }: CarouselProps) {
   return (
     <section className={`py-8 md:py-12 ${className}`}>
       {title && (
-        <h2 className="mb-6 font-heading text-2xl font-bold text-foreground md:text-3xl">
+        <h2 className={subtitle ? 'mb-2 font-heading text-2xl font-bold text-foreground md:text-3xl' : 'mb-6 font-heading text-2xl font-bold text-foreground md:text-3xl'}>
           {title}
         </h2>
+      )}
+      {subtitle && (
+        <p className="mb-6 text-muted">{subtitle}</p>
       )}
       <div className="relative">
         <div

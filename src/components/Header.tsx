@@ -25,9 +25,9 @@ export function Header({ locale, messages }: HeaderProps) {
       <div className="mx-auto flex max-w-6xl items-center justify-between px-4 py-4 md:px-8">
         <Link
           href={`/${locale}`}
-          className="font-heading text-2xl font-bold text-foreground"
+          className="font-heading text-3xl font-bold tracking-tight text-primary transition-colors hover:text-[#f40612] md:text-4xl"
         >
-          Hungary IPTV
+          huIPTV
         </Link>
 
         <nav

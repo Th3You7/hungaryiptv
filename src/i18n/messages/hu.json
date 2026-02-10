@@ -9,12 +9,13 @@
   "home": {
     "hero": {
       "title": "Legjobb IPTV Magyarországon",
-      "description": "Streamelj több ezer csatornát HD és 4K minőségben. Nézd élőben a TV-t, sportot, filmeket és sorozatokat bármilyen eszközön. Primium minőség verhetetlen áron.",
+      "description": "Streamelj több mint 50 000 csatornát HD és 4K minőségben. Nézd élőben a TV-t, sportot, filmeket és sorozatokat bármilyen eszközön. Primium minőség verhetetlen áron.",
       "cta": "Nézd az árakat",
       "ctaTrial": "Ingyenes próba indulása"
     },
     "services": {
       "title": "Szolgáltatásaink",
+      "subtitle": "A Hungary IPTV prémium streamelést nyújt fagyás nélkül, ingyenes útmutatással és 50 000+ csatornával FHD, 4K és 8K-ban.",
       "items": [
         {
           "title": "HD és 4K minőség",
@@ -44,6 +45,7 @@
     },
     "channels": {
       "title": "Világszerte csatornák",
+      "subtitle": "Nézd a legjobb Hungary IPTV csatornakínálatot: sport, hírek, filmek és szórakoztatás a világ minden tájáról.",
       "items": [
         { "name": "BBC", "image": "ailnh6899rqmqqmkgcr7" },
         { "name": "CNN", "image": "l3tg90dlgcy9o1aovcnp" },
@@ -60,6 +62,7 @@
     },
     "sports": {
       "title": "Sport és események",
+      "subtitle": "A Hungary IPTV élő sportot és eseményeket streamel HD-ban—Premier League, La Liga, Serie A, Bundesliga és mások.",
       "items": [
         { "name": "Premier League", "image": "premier_league" },
         { "name": "La Liga", "image": "liga" },
@@ -70,43 +73,44 @@
     },
     "pricing": {
       "title": "Válaszd a csomagodat",
-      "cta": "Vásárlás",
+      "subtitle": "Megfizethető Hungary IPTV csomagok 50 000+ csatornával, fagyás nélkül és ingyenes útmutatással. Válassz havit vagy spórolj hosszabb csomagokkal.",
+      "cta": "Vásárlás most",
       "popular": "Népszerű",
       "plans": [
         {
           "id": "monthly",
           "name": "Havi",
-          "price": "2.990",
+          "price": "15",
           "period": "/hó",
-          "features": ["1000+ csatorna", "HD és 4K", "Minden eszköz", "24/7 támogatás"]
+          "features": ["50 000+ csatorna", "Nincs fagyás", "Ingyenes útmutatás", "FHD, 4K, 8K", "Minden eszköz", "24/7 támogatás"]
         },
         {
           "id": "3months",
           "name": "3 Hónap",
-          "price": "7.490",
+          "price": "30",
           "period": "/3 hónap",
-          "features": ["1000+ csatorna", "HD és 4K", "Minden eszköz", "24/7 támogatás", "17% megtakarítás"]
+          "features": ["50 000+ csatorna", "Nincs fagyás", "Ingyenes útmutatás", "FHD, 4K, 8K", "Minden eszköz", "24/7 támogatás", "17% megtakarítás"]
         },
         {
           "id": "6months",
           "name": "6 Hónap",
-          "price": "13.490",
+          "price": "40",
           "period": "/6 hónap",
-          "features": ["1000+ csatorna", "HD és 4K", "Minden eszköz", "24/7 támogatás", "25% megtakarítás"],
+          "features": ["50 000+ csatorna", "Nincs fagyás", "Ingyenes útmutatás", "FHD, 4K, 8K", "Minden eszköz", "24/7 támogatás", "25% megtakarítás"],
           "popular": true
         },
         {
           "id": "yearly",
           "name": "Éves",
-          "price": "23.990",
+          "price": "60",
           "period": "/év",
-          "features": ["1000+ csatorna", "HD és 4K", "Minden eszköz", "24/7 támogatás", "33% megtakarítás"]
+          "features": ["50 000+ csatorna", "Nincs fagyás", "Ingyenes útmutatás", "FHD, 4K, 8K", "Minden eszköz", "24/7 támogatás", "33% megtakarítás"]
         }
       ]
     },
     "devices": {
       "title": "Streamelj minden eszközön",
-      "subtitle": "Egy előfizetés, nézd bárhol. TV, telefon, tablet, laptop – a te választásod.",
+      "subtitle": "A Hungary IPTV-vel egy előfizetéssel bárhol nézhetsz—TV, telefon, tablet vagy laptop.",
       "items": [
         { "name": "Smart TV" },
         { "name": "Telefon" },
@@ -116,6 +120,7 @@
     },
     "faq": {
       "title": "Gyakran ismert kérdések",
+      "subtitle": "Gyakori kérdések a Hungary IPTV-ről: beállítás, fizetés, eszközök és támogatás.",
       "items": [
         {
           "question": "Mi az IPTV?",
@@ -141,6 +146,7 @@
     },
     "testimonials": {
       "title": "Amit ügyfeleink mondanak",
+      "subtitle": "Nézd, miért választják az ügyfelek a Hungary IPTV-t a streameléshez—minőség, támogatás és ár-érték arány.",
       "items": [
         {
           "quote": "A legjobb IPTV szolgáltatás, amit Magyarországon használtam. Kiváló minőség és támogatás!",
@@ -185,38 +191,38 @@
   },
   "pricing": {
     "title": "Válaszd a csomagodat",
-    "subtitle": "Válaszd a neked megfelelő csomagot. Minden csomag tartalmaz 1000+ csatornát és 24/7 támogatást.",
-    "cta": "Vásárlás",
+    "subtitle": "Válaszd a neked megfelelő csomagot. Minden csomag tartalmaz 50 000+ csatornát és 24/7 támogatást.",
+    "cta": "Vásárlás most",
     "popular": "Népszerű",
     "plans": [
       {
         "id": "monthly",
         "name": "Havi",
-        "price": "2.990",
+        "price": "15",
         "period": "/hó",
-        "features": ["1000+ csatorna", "HD és 4K", "Minden eszköz", "24/7 támogatás"]
+        "features": ["50 000+ csatorna", "Nincs fagyás", "Ingyenes útmutatás", "FHD, 4K, 8K", "Minden eszköz", "24/7 támogatás"]
       },
       {
         "id": "3months",
         "name": "3 Hónap",
-        "price": "7.490",
+        "price": "30",
         "period": "/3 hónap",
-        "features": ["1000+ csatorna", "HD és 4K", "Minden eszköz", "24/7 támogatás", "17% megtakarítás"]
+        "features": ["50 000+ csatorna", "Nincs fagyás", "Ingyenes útmutatás", "FHD, 4K, 8K", "Minden eszköz", "24/7 támogatás", "17% megtakarítás"]
       },
       {
         "id": "6months",
         "name": "6 Hónap",
-        "price": "13.490",
+        "price": "40",
         "period": "/6 hónap",
-        "features": ["1000+ csatorna", "HD és 4K", "Minden eszköz", "24/7 támogatás", "25% megtakarítás"],
+        "features": ["50 000+ csatorna", "Nincs fagyás", "Ingyenes útmutatás", "FHD, 4K, 8K", "Minden eszköz", "24/7 támogatás", "25% megtakarítás"],
         "popular": true
       },
       {
         "id": "yearly",
         "name": "Éves",
-        "price": "23.990",
+        "price": "60",
         "period": "/év",
-        "features": ["1000+ csatorna", "HD és 4K", "Minden eszköz", "24/7 támogatás", "33% megtakarítás"]
+        "features": ["50 000+ csatorna", "Nincs fagyás", "Ingyenes útmutatás", "FHD, 4K, 8K", "Minden eszköz", "24/7 támogatás", "33% megtakarítás"]
       }
     ]
   },
@@ -243,26 +249,7 @@
     "title": "Blog",
     "subtitle": "Hírek, tippek és frissítések a Hungary IPTV-től.",
     "readMore": "Tovább olvasom",
-    "posts": [
-      {
-        "slug": "getting-started-iptv",
-        "title": "Ismerkedés az IPTV-vel",
-        "excerpt": "Tanuld meg, hogyan állítsd be az IPTV szolgáltatásod percek alatt.",
-        "date": "2025-01-15"
-      },
-      {
-        "slug": "best-devices-iptv",
-        "title": "Legjobb eszközök IPTV streameléshez",
-        "excerpt": "Fedezd fel a legjobb eszközöket az IPTV otthoni élvezetéhez.",
-        "date": "2025-01-10"
-      },
-      {
-        "slug": "iptv-vs-cable",
-        "title": "IPTV vs kábel: Miért válts?",
-        "excerpt": "Hasonlítsd össze az IPTV-t és a hagyományos kábelt, hogy meglásd, melyik jó neked.",
-        "date": "2025-01-05"
-      }
-    ]
+    "backToBlog": "Vissza a bloghoz"
   },
   "terms": {
     "title": "Felhasználási feltételek",

@@ -9,17 +9,21 @@ interface FAQItem {
 
 interface FAQProps {
   title: string;
+  subtitle?: string;
   items: FAQItem[];
 }
 
-export function FAQ({ title, items }: FAQProps) {
+export function FAQ({ title, subtitle, items }: FAQProps) {
   const [openIndex, setOpenIndex] = useState<number | null>(null);
 
   return (
     <section className="py-8 md:py-12">
-      <h2 className="mb-6 font-heading text-2xl font-bold text-foreground md:text-3xl">
+      <h2 className="mb-2 font-heading text-2xl font-bold text-foreground md:text-3xl">
         {title}
       </h2>
+      {subtitle && (
+        <p className="mb-6 text-muted">{subtitle}</p>
+      )}
       <div className="space-y-2">
         {items.map((item, index) => (
           <div
