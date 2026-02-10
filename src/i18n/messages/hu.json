@@ -253,14 +253,17 @@
   },
   "terms": {
     "title": "Felhasználási feltételek",
+    "metaDescription": "Hungary IPTV felhasználási feltételei. Olvassa el feltételeinket és kikötéseinket.",
     "content": "Helyfoglaló tartalom a felhasználási feltételekhez. Cseréld ki az aktuális feltételeidre."
   },
   "refund": {
     "title": "Visszatérítési politika",
+    "metaDescription": "Hungary IPTV visszatérítési politikája. Tudjon meg többet garanciánkról és visszatérítési feltételeinkről.",
     "content": "Helyfoglaló tartalom a visszatérítési politikához. Cseréld ki az aktuális politikádra."
   },
   "privacy": {
     "title": "Adatvédelmi irányelvek",
+    "metaDescription": "Hungary IPTV adatvédelmi irányelvei. Hogyan gyűjtjük, használjuk és védjük adatait.",
     "content": "Helyfoglaló tartalom az adatvédelmi irányelvekhez. Cseréld ki az aktuális irányelveidre."
   }
 }

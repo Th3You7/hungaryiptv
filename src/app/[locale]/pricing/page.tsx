@@ -1,9 +1,28 @@
+import type { Metadata } from 'next';
 import { getMessages } from '@/i18n/getMessages';
 import { locales, type Locale } from '@/i18n/config';
 import { PricingCard } from '@/components/home/PricingCard';
 
 export function generateStaticParams() {
   return locales.map((locale) => ({ locale }));
+}
+
+export async function generateMetadata({
+  params,
+}: {
+  params: Promise<{ locale: string }>;
+}): Promise<Metadata> {
+  const { locale } = await params;
+  if (!locales.includes(locale as Locale)) return {};
+  const messages = await getMessages(locale as Locale);
+  const title = `${messages.pricing.title} | Hungary IPTV`;
+  const description =
+    (messages.pricing as { metaDescription?: string }).metaDescription ?? messages.pricing.subtitle;
+  return {
+    title,
+    description,
+    alternates: { canonical: `/${locale}/pricing` },
+  };
 }
 
 export default async function PricingPage({

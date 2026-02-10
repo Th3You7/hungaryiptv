@@ -29,7 +29,7 @@ export const metadata: Metadata = {
     images: [{ url: '/images/logo/logo.webp', width: 512, height: 512, alt: 'huIPTV' }],
   },
   twitter: {
-    card: 'summary',
+    card: 'summary_large_image',
     title: 'Hungary IPTV | Best IPTV in Hungary',
     description: 'Stream 50,000+ channels in FHD, 4K and 8K. Best IPTV in Hungary.',
   },

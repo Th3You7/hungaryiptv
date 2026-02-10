@@ -1,8 +1,25 @@
+import type { Metadata } from 'next';
 import { getMessages } from '@/i18n/getMessages';
 import { locales, type Locale } from '@/i18n/config';
 
 export function generateStaticParams() {
   return locales.map((locale) => ({ locale }));
+}
+
+export async function generateMetadata({
+  params,
+}: {
+  params: Promise<{ locale: string }>;
+}): Promise<Metadata> {
+  const { locale } = await params;
+  if (!locales.includes(locale as Locale)) return {};
+  const messages = await getMessages(locale as Locale);
+  const privacy = messages.privacy as { title: string; metaDescription: string };
+  return {
+    title: `${privacy.title} | Hungary IPTV`,
+    description: privacy.metaDescription,
+    alternates: { canonical: `/${locale}/privacy` },
+  };
 }
 
 export default async function PrivacyPage({

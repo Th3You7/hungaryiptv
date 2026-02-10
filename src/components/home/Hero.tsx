@@ -15,7 +15,7 @@ export function Hero({ title, description, cta, ctaTrial, locale }: HeroProps) {
       <div className="absolute inset-0">
         <Image
           src="/images/hero/hero.webp"
-          alt=""
+          alt="Hungary IPTV - Stream 50,000+ channels in FHD, 4K and 8K"
           fill
           className="object-cover"
           priority

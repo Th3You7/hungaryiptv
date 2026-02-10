@@ -45,11 +45,11 @@ export async function generateMetadata({
       images: [{ url: '/images/logo/logo.webp', width: 512, height: 512, alt: 'huIPTV' }],
     },
     twitter: {
+      card: 'summary_large_image',
       title: titles[locale as Locale],
       description: descriptions[locale as Locale],
     },
     alternates: {
-      canonical: `/${locale}`,
       languages: {
         en: '/en',
         hu: '/hu',

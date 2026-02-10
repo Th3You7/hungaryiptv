@@ -1,3 +1,4 @@
+import type { Metadata } from 'next';
 import { getMessages } from '@/i18n/getMessages';
 import { locales, type Locale } from '@/i18n/config';
 import { Hero } from '@/components/home/Hero';
@@ -10,9 +11,34 @@ import Image from 'next/image';
 import { FAQ } from '@/components/home/FAQ';
 import { TestimonialCard } from '@/components/home/TestimonialCard';
 
+const titles: Record<Locale, string> = {
+  en: 'Hungary IPTV | Best IPTV in Hungary',
+  hu: 'Hungary IPTV | Legjobb IPTV Magyarországon',
+};
+
+const descriptions: Record<Locale, string> = {
+  en: 'Stream 50,000+ channels in FHD, 4K and 8K. Best IPTV service in Hungary. No freeze, free guidance.',
+  hu: 'Streamelj 50 000+ csatornát FHD, 4K és 8K minőségben. Legjobb IPTV szolgáltatás Magyarországon. Nincs fagyás, ingyenes útmutatás.',
+};
+
 export function generateStaticParams() {
   return locales.map((locale) => ({ locale }));
 }
+
+export async function generateMetadata({
+  params,
+}: {
+  params: Promise<{ locale: string }>;
+}): Promise<Metadata> {
+  const { locale } = await params;
+  if (!locales.includes(locale as Locale)) return {};
+  return {
+    title: titles[locale as Locale],
+    description: descriptions[locale as Locale],
+    alternates: { canonical: `/${locale}` },
+  };
+}
+
 
 export default async function HomePage({
   params,

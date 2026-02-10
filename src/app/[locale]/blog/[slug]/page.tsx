@@ -1,11 +1,43 @@
+import type { Metadata } from 'next';
 import { notFound } from 'next/navigation';
 import Link from 'next/link';
 import { getPost, getAllPostParams } from '@/lib/blog';
 import { getMessages } from '@/i18n/getMessages';
 import { locales, type Locale } from '@/i18n/config';
 
+const siteUrl = process.env.NEXT_PUBLIC_SITE_URL ?? 'https://hungaryiptv.net';
+
 export function generateStaticParams() {
   return getAllPostParams();
+}
+
+export async function generateMetadata({
+  params,
+}: {
+  params: Promise<{ locale: string; slug: string }>;
+}): Promise<Metadata> {
+  const { locale, slug } = await params;
+  if (!locales.includes(locale as Locale)) return {};
+  const post = await getPost(slug, locale as Locale);
+  if (!post) return {};
+  const url = `${siteUrl}/${locale}/blog/${slug}`;
+  const title = `${post.title} | Hungary IPTV`;
+  return {
+    title,
+    description: post.excerpt,
+    openGraph: {
+      url,
+      type: 'article',
+      title,
+      description: post.excerpt,
+    },
+    twitter: {
+      card: 'summary_large_image',
+      title,
+      description: post.excerpt,
+    },
+    alternates: { canonical: `/${locale}/blog/${slug}` },
+  };
 }
 
 export default async function BlogPostPage({
@@ -22,9 +54,26 @@ export default async function BlogPostPage({
   if (!post) notFound();
   const backLabel = (messages as { blog: { backToBlog: string } }).blog.backToBlog;
 
+  const articleJsonLd = {
+    '@context': 'https://schema.org',
+    '@type': 'BlogPosting',
+    headline: post.title,
+    description: post.excerpt,
+    datePublished: post.date,
+    publisher: {
+      '@type': 'Organization',
+      name: 'Hungary IPTV',
+      logo: { '@type': 'ImageObject', url: `${siteUrl}/images/logo/logo.webp` },
+    },
+    url: `${siteUrl}/${locale}/blog/${slug}`,
+  };
+  const jsonLdString = JSON.stringify(articleJsonLd).replace(/</g, '\\u003c');
+
   return (
-    <article className="mx-auto max-w-4xl px-4 py-12 md:px-8 md:py-16">
-      <Link
+    <>
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: jsonLdString }} />
+      <article className="mx-auto max-w-4xl px-4 py-12 md:px-8 md:py-16">
+        <Link
         href={`/${locale}/blog`}
         className="mb-4 inline-block text-sm font-medium text-primary hover:underline"
       >
@@ -41,6 +90,7 @@ export default async function BlogPostPage({
         className="prose prose-invert mt-8 max-w-none prose-headings:font-heading prose-headings:font-bold prose-p:text-muted prose-a:text-primary prose-a:no-underline hover:prose-a:underline"
         dangerouslySetInnerHTML={{ __html: post.contentHtml }}
       />
-    </article>
+      </article>
+    </>
   );
 }

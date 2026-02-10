@@ -253,14 +253,17 @@
   },
   "terms": {
     "title": "Terms of Service",
+    "metaDescription": "Terms of Service for Hungary IPTV. Read our usage terms and conditions.",
     "content": "Placeholder content for Terms of Service. Replace with your actual terms."
   },
   "refund": {
     "title": "Refund Policy",
+    "metaDescription": "Hungary IPTV refund policy. Learn about our money-back guarantee and refund conditions.",
     "content": "Placeholder content for Refund Policy. Replace with your actual refund policy."
   },
   "privacy": {
     "title": "Privacy Policy",
+    "metaDescription": "Privacy Policy for Hungary IPTV. How we collect, use, and protect your data.",
     "content": "Placeholder content for Privacy Policy. Replace with your actual privacy policy."
   }
 }
