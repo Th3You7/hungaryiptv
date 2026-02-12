@@ -8,7 +8,7 @@ interface TestimonialCardProps {
 
 export function TestimonialCard({ quote, name }: TestimonialCardProps) {
   return (
-    <article className="flex w-72 shrink-0 flex-col rounded-lg border border-surface-elevated bg-surface p-6">
+    <article className="flex w-72 shrink-0 flex-col rounded-2xl border border-surface-elevated bg-surface p-6">
       <p className="mb-4 flex-1 text-sm italic text-muted">&ldquo;{quote}&rdquo;</p>
       <div className="flex items-center gap-3">
         <div className="relative h-12 w-12 overflow-hidden rounded-full">

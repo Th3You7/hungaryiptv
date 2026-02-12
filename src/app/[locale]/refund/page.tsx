@@ -16,7 +16,7 @@ export async function generateMetadata({
   const messages = await getMessages(locale as Locale);
   const refund = messages.refund as { title: string; metaDescription: string };
   return {
-    title: `${refund.title} | Hungary IPTV`,
+    title: `${refund.title} | StreamAtlas`,
     description: refund.metaDescription,
     alternates: { canonical: `/${locale}/refund` },
   };

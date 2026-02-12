@@ -5,7 +5,7 @@ import { getPost, getAllPostParams } from '@/lib/blog';
 import { getMessages } from '@/i18n/getMessages';
 import { locales, type Locale } from '@/i18n/config';
 
-const siteUrl = process.env.NEXT_PUBLIC_SITE_URL ?? 'https://hungaryiptv.net';
+const siteUrl = process.env.NEXT_PUBLIC_SITE_URL ?? 'https://streamatlas.com';
 
 export function generateStaticParams() {
   return getAllPostParams();
@@ -21,7 +21,7 @@ export async function generateMetadata({
   const post = await getPost(slug, locale as Locale);
   if (!post) return {};
   const url = `${siteUrl}/${locale}/blog/${slug}`;
-  const title = `${post.title} | Hungary IPTV`;
+  const title = `${post.title} | StreamAtlas`;
   return {
     title,
     description: post.excerpt,
@@ -62,7 +62,7 @@ export default async function BlogPostPage({
     datePublished: post.date,
     publisher: {
       '@type': 'Organization',
-      name: 'Hungary IPTV',
+      name: 'StreamAtlas',
       logo: { '@type': 'ImageObject', url: `${siteUrl}/images/logo/logo.webp` },
     },
     url: `${siteUrl}/${locale}/blog/${slug}`,

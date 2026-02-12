@@ -2,7 +2,7 @@ import type { MetadataRoute } from 'next';
 import { getAllPostParams } from '@/lib/blog';
 import { locales, type Locale } from '@/i18n/config';
 
-const siteUrl = process.env.NEXT_PUBLIC_SITE_URL ?? 'https://hungaryiptv.net';
+const siteUrl = process.env.NEXT_PUBLIC_SITE_URL ?? 'https://streamatlas.com';
 
 const staticPaths: { path: string; changeFrequency?: 'weekly' | 'monthly' | 'yearly'; priority?: number }[] = [
   { path: '', changeFrequency: 'weekly', priority: 1 },

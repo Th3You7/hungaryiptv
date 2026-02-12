@@ -9,7 +9,7 @@ interface ChannelCardProps {
 export function ChannelCard({ name, image }: ChannelCardProps) {
   const src = image ? `/images/channels/${image}.webp` : placeholders.channel(name);
   return (
-    <div className="flex h-24 w-32 shrink-0 flex-col items-center justify-center overflow-hidden rounded-lg bg-surface">
+    <div className="flex h-24 w-32 shrink-0 flex-col items-center justify-center overflow-hidden rounded-xl bg-surface">
       <div className="relative h-12 w-20">
         <Image
           src={src}

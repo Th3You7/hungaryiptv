@@ -15,7 +15,7 @@ export function Hero({ title, description, cta, ctaTrial, locale }: HeroProps) {
       <div className="absolute inset-0">
         <Image
           src="/images/hero/hero.webp"
-          alt="Hungary IPTV - Stream 50,000+ channels in FHD, 4K and 8K"
+          alt="StreamAtlas - Best IPTV USA, Canada and Europe. Strong servers, no freeze."
           fill
           className="object-cover"
           priority
@@ -33,13 +33,13 @@ export function Hero({ title, description, cta, ctaTrial, locale }: HeroProps) {
         <div className="mt-8 flex flex-wrap gap-4">
           <Link
             href={`/${locale}#pricing`}
-            className="flex min-h-[44px] items-center justify-center rounded bg-primary px-8 py-3 font-medium text-white transition-colors hover:bg-[#f40612]"
+            className="flex min-h-[44px] items-center justify-center rounded-xl bg-primary px-8 py-3 font-medium text-white transition-colors hover:bg-[#f40612]"
           >
             {ctaTrial}
           </Link>
           <Link
             href={`/${locale}#pricing`}
-            className="flex min-h-[44px] items-center justify-center rounded border-2 border-white/80 bg-transparent px-8 py-3 font-medium text-white transition-colors hover:bg-white/10"
+            className="flex min-h-[44px] items-center justify-center rounded-xl border-2 border-white/80 bg-transparent px-8 py-3 font-medium text-white transition-colors hover:bg-white/10"
           >
             {cta}
           </Link>

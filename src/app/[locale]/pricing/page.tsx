@@ -15,7 +15,7 @@ export async function generateMetadata({
   const { locale } = await params;
   if (!locales.includes(locale as Locale)) return {};
   const messages = await getMessages(locale as Locale);
-  const title = `${messages.pricing.title} | Hungary IPTV`;
+  const title = `${messages.pricing.title} | StreamAtlas`;
   const description =
     (messages.pricing as { metaDescription?: string }).metaDescription ?? messages.pricing.subtitle;
   return {

@@ -28,7 +28,7 @@ export function FAQ({ title, subtitle, items }: FAQProps) {
         {items.map((item, index) => (
           <div
             key={index}
-            className={`overflow-hidden rounded-lg border transition-colors ${
+            className={`overflow-hidden rounded-xl border transition-colors ${
               openIndex === index ? 'border-primary bg-surface' : 'border-surface-elevated bg-surface/50'
             }`}
           >

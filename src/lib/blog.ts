@@ -3,11 +3,9 @@ import path from 'path';
 import matter from 'gray-matter';
 import { remark } from 'remark';
 import remarkHtml from 'remark-html';
-import type { Locale } from '@/i18n/config';
+import { locales, type Locale } from '@/i18n/config';
 
 const BLOG_DIR = path.join(process.cwd(), 'content', 'blog');
-
-const LOCALES: Locale[] = ['en', 'hu'];
 
 export interface BlogPostMeta {
   slug: string;
@@ -27,7 +25,7 @@ function getFileNames(): { slug: string; locale: Locale }[] {
   const result: { slug: string; locale: Locale }[] = [];
   for (const file of files) {
     if (!file.endsWith('.md')) continue;
-    for (const locale of LOCALES) {
+    for (const locale of locales) {
       const suffix = `.${locale}.md`;
       if (file.endsWith(suffix)) {
         const slug = file.slice(0, -suffix.length);

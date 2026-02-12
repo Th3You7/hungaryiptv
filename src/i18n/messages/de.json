@@ -1,0 +1,177 @@
+{
+  "nav": {
+    "home": "Start",
+    "pricing": "Preise",
+    "about": "Über uns",
+    "blog": "Blog",
+    "startTrial": "Kostenlose Testversion"
+  },
+  "home": {
+    "hero": {
+      "title": "Bester IPTV-Anbieter USA, Kanada und Europa – Premium IPTV weltweit",
+      "description": "Streamen Sie 50.000+ Kanäle in FHD, 4K und 8K. Starke Server, kein Ruckler. Live-TV, Sport, Filme und Serien auf jedem Gerät. Premium-IPTV für USA, Kanada und Europa.",
+      "cta": "Tarife ansehen",
+      "ctaTrial": "Kostenlose Testversion"
+    },
+    "services": {
+      "title": "Unsere Leistungen",
+      "subtitle": "StreamAtlas bietet Ihnen Premium-Streaming ohne Ruckler, kostenlose Einrichtung und 50.000+ Kanäle in FHD, 4K und 8K.",
+      "items": [
+        {"title": "HD & 4K Qualität", "description": "Kristallklare Bildqualität mit Full HD und 4K auf kompatiblen Geräten. Filme, Sport und Live-TV in bester Schärfe mit minimalem Buffering."},
+        {"title": "24/7 Support", "description": "Unser Support ist rund um die Uhr für Sie da. Schnelle Antworten per WhatsApp."},
+        {"title": "Alle Geräte", "description": "Sehen Sie auf Smart TV, Android, iOS, Fire Stick oder jedem Gerät. Ein Abo – unbegrenzt viele Bildschirme für die ganze Familie."},
+        {"title": "Kein Vertrag", "description": "Flexible Tarife ohne Mindestlaufzeit. Jederzeit kündbar, keine versteckten Kosten."},
+        {"title": "Sofortige Aktivierung", "description": "Ihr Zugang wird direkt nach der Zahlung freigeschaltet. Kein Warten – in Minuten starten."},
+        {"title": "Zufrieden oder Geld zurück", "description": "Wir stehen für unseren Service. Klare Rückgaberichtlinie. Ihre Zufriedenheit hat Priorität."}
+      ]
+    },
+    "channels": {
+      "title": "Kanäle weltweit",
+      "subtitle": "Das beste StreamAtlas-Kanalangebot: Sport, Nachrichten, Filme und Unterhaltung aus aller Welt.",
+      "items": [
+        {"name": "BBC", "image": "ailnh6899rqmqqmkgcr7"},
+        {"name": "CNN", "image": "l3tg90dlgcy9o1aovcnp"},
+        {"name": "Disney", "image": "pdimefqyhjnmiffo1rbx"},
+        {"name": "Sky", "image": "po6mfcsypsfndu8kcnnd"},
+        {"name": "Viaplay", "image": "viaplay"},
+        {"name": "Videoland", "image": "videoland"},
+        {"name": "Eurosport", "image": "vusbchgfvoc9j2d4itxd"},
+        {"name": "National Geographic", "image": "wihfqvokbmwnrip9y8zd"},
+        {"name": "Discovery", "image": "wiv6savggkgunzatehtn"},
+        {"name": "Sport TV", "image": "xmix0bcxtukuyppzqnjs"},
+        {"name": "HBO", "image": "xza5bjxn5cs0uiny8wrr"}
+      ]
+    },
+    "sports": {
+      "title": "Sport & Events",
+      "subtitle": "StreamAtlas streamt Live-Sport in HD—Premier League, La Liga, Serie A, Bundesliga und mehr.",
+      "items": [
+        {"name": "Premier League", "image": "premier_league"},
+        {"name": "La Liga", "image": "liga"},
+        {"name": "Serie A", "image": "serie_a"},
+        {"name": "Bundesliga", "image": "bundesliga"},
+        {"name": "Liga Portugal", "image": "liga_por"}
+      ]
+    },
+    "series": {
+      "title": "Serien & On-Demand",
+      "subtitle": "Tausende Serien und Filme on demand. Beliebte Streaming-Marken und mehr an einem Ort.",
+      "items": [
+        {"name": "Apple TV+", "image": "apple_tv"},
+        {"name": "Disney+", "image": "disney+"},
+        {"name": "HBO Max", "image": "hbo_max"},
+        {"name": "Hulu", "image": "hulu"},
+        {"name": "Paramount+", "image": "paramount+"},
+        {"name": "Peacock", "image": "peacock"},
+        {"name": "Prime Video", "image": "prime_video"},
+        {"name": "Showtime", "image": "showtime"}
+      ]
+    },
+    "pricing": {
+      "title": "Wählen Sie Ihren Tarif",
+      "subtitle": "Günstige StreamAtlas-Tarife mit 50.000+ Kanälen, ohne Ruckler und mit kostenloser Einrichtung.",
+      "cta": "Jetzt kaufen",
+      "popular": "Beliebt",
+      "plans": [
+        {"id": "monthly", "name": "Monatlich", "price": "$17", "period": "/Monat", "features": ["50.000+ Kanäle", "Kein Ruckler", "Kostenlose Einrichtung", "FHD, 4K, 8K", "Alle Geräte", "Datenschutz & integriertes VPN", "Kostenlose Auto-Updates", "Anti-freeze TM 9.8 Technologie", "EPG verfügbar", "24/7 Support"]},
+        {"id": "3months", "name": "3 Monate", "price": "$37", "period": "/3 Monate", "features": ["50.000+ Kanäle", "Kein Ruckler", "Kostenlose Einrichtung", "FHD, 4K, 8K", "Alle Geräte", "Datenschutz & integriertes VPN", "Kostenlose Auto-Updates", "Anti-freeze TM 9.8 Technologie", "EPG verfügbar", "24/7 Support", "17% sparen"]},
+        {"id": "6months", "name": "6 Monate", "price": "$49", "period": "/6 Monate", "features": ["50.000+ Kanäle", "Kein Ruckler", "Kostenlose Einrichtung", "FHD, 4K, 8K", "Alle Geräte", "Datenschutz & integriertes VPN", "Kostenlose Auto-Updates", "Anti-freeze TM 9.8 Technologie", "EPG verfügbar", "24/7 Support", "25% sparen"], "popular": true},
+        {"id": "yearly", "name": "Jährlich", "price": "$77", "period": "/Jahr", "features": ["50.000+ Kanäle", "Kein Ruckler", "Kostenlose Einrichtung", "FHD, 4K, 8K", "Alle Geräte", "Datenschutz & integriertes VPN", "Kostenlose Auto-Updates", "Anti-freeze TM 9.8 Technologie", "EPG verfügbar", "24/7 Support", "33% sparen"]}
+      ]
+    },
+    "devices": {
+      "title": "Streamen auf allen Geräten",
+      "subtitle": "Mit StreamAtlas: ein Abo – überall schauen: TV, Handy, Tablet oder Laptop.",
+      "items": [{"name": "Smart TV"}, {"name": "Handy"}, {"name": "Tablet"}, {"name": "Laptop"}]
+    },
+    "dvr": {
+      "title": "Interaktivität & DVR: Kontrolle über Ihr Programm",
+      "subtitle": "Modernes IPTV gibt Ihnen die Kontrolle. Nicht mehr an Sendezeiten gebunden.",
+      "items": [
+        {"title": "Pause, Zurückspulen, Vorspulen", "description": "Kontrollieren Sie Live-TV. Pausieren, zurückspulen oder vorspulen—verpassen Sie keinen Moment."},
+        {"title": "Catch-up TV", "description": "Verpassen Sie keine Lieblingssendung. Sehen Sie vergangene Folgen, wann es Ihnen passt."},
+        {"title": "Cloud-DVR", "description": "Aufnehmen und später ansehen. Aufnahmen in der Cloud, auf allen Geräten verfügbar."}
+      ],
+      "closing": "So wird TV zu Ihrem persönlichen Entertainment-Hub."
+    },
+    "faq": {
+      "title": "Häufige Fragen",
+      "subtitle": "Fragen zu StreamAtlas: Einrichtung, Zahlung, Geräte und Support.",
+      "items": [
+        {"question": "Was ist IPTV?", "answer": "IPTV (Internet Protocol Television) liefert TV-Inhalte über das Internet statt Kabel oder Satellit. Live-TV, Filme und Serien auf jedem internetfähigen Gerät."},
+        {"question": "Wie bezahle ich?", "answer": "Wir akzeptieren Kreditkarte, PayPal und Überweisung. Kontaktieren Sie uns per WhatsApp zur Bestellung."},
+        {"question": "Welche Geräte werden unterstützt?", "answer": "Unser Service läuft auf Smart TVs, Android TV, Fire Stick, Android/iOS, Windows, Mac und vielen IPTV-Boxen."},
+        {"question": "Gibt es eine kostenlose Testversion?", "answer": "Neue Kunden erhalten 24 Stunden Testzugang. Kontaktieren Sie uns per WhatsApp."},
+        {"question": "Wie kündige ich?", "answer": "Kein Mindestvertrag. Das Abo verlängert sich nicht automatisch. Einfach nicht verlängern."},
+        {"question": "Kann ich eine Rückerstattung bekommen?", "answer": "Ja. Wir haben eine klare Rückgaberichtlinie. Sind Sie nicht zufrieden, kontaktieren Sie uns per WhatsApp innerhalb der Rückgabefrist—wir bearbeiten Ihre Rückerstattung gemäß unseren AGB. Details finden Sie auf der Seite Rückgaberichtlinie."},
+        {"question": "Wie erhalte ich meine Zugangsdaten?", "answer": "Direkt nach Zahlungsbestätigung senden wir Ihre Zugangsdaten (M3U-URL oder Xtream Codes: Server-URL, Benutzername, Passwort) per E-Mail und/oder WhatsApp—in der Regel innerhalb von Minuten. Prüfen Sie Posteingang und Spam. Bei Nichtempfang kontaktieren Sie uns per WhatsApp, wir senden sie erneut."}
+      ]
+    },
+    "testimonials": {
+      "title": "Was unsere Kunden sagen",
+      "subtitle": "Warum Kunden StreamAtlas wählen—Qualität, Support und Preis-Leistung.",
+      "items": [
+        {"quote": "Bester IPTV-Service, den ich genutzt habe. Top Qualität und Support!", "name": "Peter K."},
+        {"quote": "Großartiges Preis-Leistungs-Verhältnis. Alle Lieblingskanäle an einem Ort.", "name": "Anna M."},
+        {"quote": "Schnelle Einrichtung, läuft perfekt auf Smart TV und Handy.", "name": "Lars S."},
+        {"quote": "Sehr zuverlässige Streams, kein Buffering. Support antwortet in Minuten.", "name": "David T."},
+        {"quote": "Endlich IPTV mit allem Sport in HD. Sehr zufrieden.", "name": "Mark R."},
+        {"quote": "Faire Preise, sofort aktiv. Schauen innerhalb von 10 Minuten.", "name": "Sarah L."},
+        {"quote": "Seit 6 Monaten dabei. Keine Probleme. Beste Entscheidung.", "name": "James N."},
+        {"quote": "Klares Bild, viele Kanäle, Support hilft wirklich. 10/10 Empfehlung.", "name": "Elena V."}
+      ]
+    }
+  },
+  "footer": {
+    "terms": "AGB",
+    "refund": "Rückgaberichtlinie",
+    "privacy": "Datenschutz",
+    "copyright": "© 2025 StreamAtlas. Alle Rechte vorbehalten."
+  },
+  "pricing": {
+    "title": "Wählen Sie Ihren Tarif",
+    "subtitle": "Alle Tarife mit 50.000+ Kanälen und 24/7 Support.",
+    "cta": "Jetzt kaufen",
+    "popular": "Beliebt",
+    "plans": [
+      {"id": "monthly", "name": "Monatlich", "price": "$17", "period": "/Monat", "features": ["50.000+ Kanäle", "Kein Ruckler", "Kostenlose Einrichtung", "FHD, 4K, 8K", "Alle Geräte", "Datenschutz & integriertes VPN", "Kostenlose Auto-Updates", "Anti-freeze TM 9.8 Technologie", "EPG verfügbar", "24/7 Support"]},
+      {"id": "3months", "name": "3 Monate", "price": "$37", "period": "/3 Monate", "features": ["50.000+ Kanäle", "Kein Ruckler", "Kostenlose Einrichtung", "FHD, 4K, 8K", "Alle Geräte", "Datenschutz & integriertes VPN", "Kostenlose Auto-Updates", "Anti-freeze TM 9.8 Technologie", "EPG verfügbar", "24/7 Support", "17% sparen"]},
+      {"id": "6months", "name": "6 Monate", "price": "$49", "period": "/6 Monate", "features": ["50.000+ Kanäle", "Kein Ruckler", "Kostenlose Einrichtung", "FHD, 4K, 8K", "Alle Geräte", "Datenschutz & integriertes VPN", "Kostenlose Auto-Updates", "Anti-freeze TM 9.8 Technologie", "EPG verfügbar", "24/7 Support", "25% sparen"], "popular": true},
+      {"id": "yearly", "name": "Jährlich", "price": "$77", "period": "/Jahr", "features": ["50.000+ Kanäle", "Kein Ruckler", "Kostenlose Einrichtung", "FHD, 4K, 8K", "Alle Geräte", "Datenschutz & integriertes VPN", "Kostenlose Auto-Updates", "Anti-freeze TM 9.8 Technologie", "EPG verfügbar", "24/7 Support", "33% sparen"]}
+    ]
+  },
+  "about": {
+    "title": "Über uns",
+    "story": {"title": "Unsere Geschichte", "content": "StreamAtlas wurde gegründet, um Premium-TV-Streaming weltweit anzubieten. Wir glauben, dass jeder Zugang zu hochwertiger Unterhaltung zu fairen Preisen verdient."},
+    "mission": {"title": "Unsere Mission", "content": "Das beste IPTV-Erlebnis mit zuverlässigen Streams, großem Kanalangebot und erstklassigem Support."},
+    "values": {
+      "title": "Unsere Werte",
+      "items": [
+        {"title": "Qualität", "description": "HD- und 4K-Streams mit minimalem Buffering."},
+        {"title": "Zuverlässigkeit", "description": "99,9% Verfügbarkeit und ständige Kanal-Updates."},
+        {"title": "Support", "description": "24/7 Support per WhatsApp."}
+      ]
+    }
+  },
+  "blog": {
+    "title": "Blog",
+    "subtitle": "Neuigkeiten, Tipps und Updates von StreamAtlas.",
+    "readMore": "Weiterlesen",
+    "backToBlog": "Zurück zum Blog"
+  },
+  "terms": {
+    "title": "AGB",
+    "metaDescription": "StreamAtlas AGB. Nutzungsbedingungen und Konditionen.",
+    "content": "Platzhalter für AGB. Durch Ihre eigenen Bedingungen ersetzen."
+  },
+  "refund": {
+    "title": "Rückgaberichtlinie",
+    "metaDescription": "StreamAtlas Rückgaberichtlinie. Geld-zurück-Garantie und Bedingungen.",
+    "content": "Platzhalter für Rückgaberichtlinie. Durch Ihre eigene Richtlinie ersetzen."
+  },
+  "privacy": {
+    "title": "Datenschutz",
+    "metaDescription": "StreamAtlas Datenschutzerklärung. Wie wir Daten erfassen, nutzen und schützen.",
+    "content": "Platzhalter für Datenschutz. Durch Ihre eigene Erklärung ersetzen."
+  }
+}

@@ -8,7 +8,7 @@ interface DeviceCardProps {
 export function DeviceCard({ name }: DeviceCardProps) {
   const src = placeholders.device(name);
   return (
-    <div className="flex flex-col items-center gap-3 rounded-lg bg-surface p-6">
+    <div className="flex flex-col items-center gap-3 rounded-2xl bg-surface p-6">
       <div className="relative h-16 w-16">
         <Image
           src={src}

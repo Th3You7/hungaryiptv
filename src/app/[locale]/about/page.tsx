@@ -14,7 +14,7 @@ export async function generateMetadata({
   const { locale } = await params;
   if (!locales.includes(locale as Locale)) return {};
   const messages = await getMessages(locale as Locale);
-  const title = `${messages.about.title} | Hungary IPTV`;
+  const title = `${messages.about.title} | StreamAtlas`;
   const description =
     (messages.about as { metaDescription?: string }).metaDescription ?? messages.about.story.content;
   return {
@@ -58,7 +58,7 @@ export default async function AboutPage({
           {about.values.items.map((item: { title: string; description: string }) => (
             <div
               key={item.title}
-              className="rounded-lg border border-surface-elevated bg-surface p-6"
+              className="rounded-2xl border border-surface-elevated bg-surface p-6"
             >
               <h3 className="mb-2 font-heading text-xl font-bold text-foreground">
                 {item.title}

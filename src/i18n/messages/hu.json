@@ -8,14 +8,14 @@
   },
   "home": {
     "hero": {
-      "title": "Legjobb IPTV Magyarországon",
-      "description": "Streamelj több mint 50 000 csatornát HD és 4K minőségben. Nézd élőben a TV-t, sportot, filmeket és sorozatokat bármilyen eszközön. Primium minőség verhetetlen áron.",
+      "title": "Legjobb IPTV szolgáltató USA, Kanada és Európa – Prémium IPTV világszerte",
+      "description": "Streamelj 50 000+ csatornát FHD, 4K és 8K-ban. Erős szerverek, nincs fagyás. Nézd élőben a TV-t, sportot, filmeket és sorozatokat bármilyen eszközön. Prémium IPTV USA, Kanada és Európa számára.",
       "cta": "Nézd az árakat",
       "ctaTrial": "Ingyenes próba indulása"
     },
     "services": {
       "title": "Szolgáltatásaink",
-      "subtitle": "A Hungary IPTV prémium streamelést nyújt fagyás nélkül, ingyenes útmutatással és 50 000+ csatornával FHD, 4K és 8K-ban.",
+      "subtitle": "A StreamAtlas prémium streamelést nyújt fagyás nélkül, ingyenes útmutatással és 50 000+ csatornával FHD, 4K és 8K-ban.",
       "items": [
         {
           "title": "HD és 4K minőség",
@@ -45,7 +45,7 @@
     },
     "channels": {
       "title": "Világszerte csatornák",
-      "subtitle": "Nézd a legjobb Hungary IPTV csatornakínálatot: sport, hírek, filmek és szórakoztatás a világ minden tájáról.",
+      "subtitle": "Nézd a legjobb StreamAtlas csatornakínálatot: sport, hírek, filmek és szórakoztatás a világ minden tájáról.",
       "items": [
         { "name": "BBC", "image": "ailnh6899rqmqqmkgcr7" },
         { "name": "CNN", "image": "l3tg90dlgcy9o1aovcnp" },
@@ -62,7 +62,7 @@
     },
     "sports": {
       "title": "Sport és események",
-      "subtitle": "A Hungary IPTV élő sportot és eseményeket streamel HD-ban—Premier League, La Liga, Serie A, Bundesliga és mások.",
+      "subtitle": "A StreamAtlas élő sportot és eseményeket streamel HD-ban—Premier League, La Liga, Serie A, Bundesliga és mások.",
       "items": [
         { "name": "Premier League", "image": "premier_league" },
         { "name": "La Liga", "image": "liga" },
@@ -71,46 +71,60 @@
         { "name": "Liga Portugal", "image": "liga_por" }
       ]
     },
+    "series": {
+      "title": "Sorozatok és kérésre",
+      "subtitle": "Nézz több ezer sorozatot és filmet kérésre. Népszerű streamelő márkák és még sok más egy helyen.",
+      "items": [
+        { "name": "Apple TV+", "image": "apple_tv" },
+        { "name": "Disney+", "image": "disney+" },
+        { "name": "HBO Max", "image": "hbo_max" },
+        { "name": "Hulu", "image": "hulu" },
+        { "name": "Paramount+", "image": "paramount+" },
+        { "name": "Peacock", "image": "peacock" },
+        { "name": "Prime Video", "image": "prime_video" },
+        { "name": "Showtime", "image": "showtime" }
+      ]
+    },
     "pricing": {
       "title": "Válaszd a csomagodat",
-      "subtitle": "Megfizethető Hungary IPTV csomagok 50 000+ csatornával, fagyás nélkül és ingyenes útmutatással. Válassz havit vagy spórolj hosszabb csomagokkal.",
+      "subtitle": "Megfizethető StreamAtlas csomagok 50 000+ csatornával, fagyás nélkül és ingyenes útmutatással. Válassz havit vagy spórolj hosszabb csomagokkal.",
       "cta": "Vásárlás most",
       "popular": "Népszerű",
       "plans": [
         {
           "id": "monthly",
           "name": "Havi",
-          "price": "15",
+          "price": "$17",
           "period": "/hó",
-          "features": ["50 000+ csatorna", "Nincs fagyás", "Ingyenes útmutatás", "FHD, 4K, 8K", "Minden eszköz", "24/7 támogatás"]
+          "features": ["50 000+ csatorna", "Nincs fagyás", "Ingyenes útmutatás", "FHD, 4K, 8K", "Minden eszköz", "Adatvédelem és beépített VPN", "Ingyenes automatikus frissítések", "Anti-freeze TM 9.8 technológia", "Elérhető EPG", "24/7 támogatás"]
         },
         {
           "id": "3months",
           "name": "3 Hónap",
-          "price": "30",
+          "price": "$37",
           "period": "/3 hónap",
-          "features": ["50 000+ csatorna", "Nincs fagyás", "Ingyenes útmutatás", "FHD, 4K, 8K", "Minden eszköz", "24/7 támogatás", "17% megtakarítás"]
+          "features": ["50 000+ csatorna", "Nincs fagyás", "Ingyenes útmutatás", "FHD, 4K, 8K", "Minden eszköz", "Adatvédelem és beépített VPN", "Ingyenes automatikus frissítések", "Anti-freeze TM 9.8 technológia", "Elérhető EPG", "24/7 támogatás", "17% megtakarítás"]
         },
         {
           "id": "6months",
           "name": "6 Hónap",
-          "price": "40",
+          "price": "$49",
           "period": "/6 hónap",
-          "features": ["50 000+ csatorna", "Nincs fagyás", "Ingyenes útmutatás", "FHD, 4K, 8K", "Minden eszköz", "24/7 támogatás", "25% megtakarítás"],
+          "features": ["50 000+ csatorna", "Nincs fagyás", "Ingyenes útmutatás", "FHD, 4K, 8K", "Minden eszköz", "Adatvédelem és beépített VPN", "Ingyenes automatikus frissítések", "Anti-freeze TM 9.8 technológia", "Elérhető EPG", "24/7 támogatás", "25% megtakarítás"],
           "popular": true
         },
         {
           "id": "yearly",
           "name": "Éves",
-          "price": "60",
+          "price": "$77",
           "period": "/év",
-          "features": ["50 000+ csatorna", "Nincs fagyás", "Ingyenes útmutatás", "FHD, 4K, 8K", "Minden eszköz", "24/7 támogatás", "33% megtakarítás"]
+          "features": ["50 000+ csatorna", "Nincs fagyás", "Ingyenes útmutatás", "FHD, 4K, 8K", "Minden eszköz", "Adatvédelem és beépített VPN", "Ingyenes automatikus frissítések", "Anti-freeze TM 9.8 technológia", "Elérhető EPG", "24/7 támogatás", "33% megtakarítás"]
         }
       ]
     },
     "devices": {
       "title": "Streamelj minden eszközön",
-      "subtitle": "A Hungary IPTV-vel egy előfizetéssel bárhol nézhetsz—TV, telefon, tablet vagy laptop.",
+      "subtitle": "A StreamAtlas-vel egy előfizetéssel bárhol nézhetsz—TV, telefon, tablet vagy laptop.",
       "items": [
         { "name": "Smart TV" },
         { "name": "Telefon" },
@@ -118,9 +132,28 @@
         { "name": "Laptop" }
       ]
     },
+    "dvr": {
+      "title": "Interaktivitás és DVR: Te irányítod, mit nézel",
+      "subtitle": "A modern IPTV lehetővé teszi, hogy te irányítsd a nézésedet. Nincs kötve a műsoridőhöz.",
+      "items": [
+        {
+          "title": "Szünet, visszatekerés, előretekerés",
+          "description": "Irányítsd az élő streameket. Szüneteltess, tekerd vissza vagy előre—ne maradj le egy pillanatról sem."
+        },
+        {
+          "title": "Catch-up TV",
+          "description": "Soha ne maradj le a kedvenc műsorokról. Nézd a múlt epizódokat, amikor neked jó—függetlenül a műsoridőtől."
+        },
+        {
+          "title": "Felhős DVR",
+          "description": "Rögzítsd a tartalmat és nézd később. A felvételek a felhőben tárolódnak, bármely eszközről elérhetők."
+        }
+      ],
+      "closing": "Ez a rugalmasság a TV-t egy teljesen személyre szabott szórakoztató központtá alakítja."
+    },
     "faq": {
       "title": "Gyakran ismert kérdések",
-      "subtitle": "Gyakori kérdések a Hungary IPTV-ről: beállítás, fizetés, eszközök és támogatás.",
+      "subtitle": "Gyakori kérdések a StreamAtlas-ről: beállítás, fizetés, eszközök és támogatás.",
       "items": [
         {
           "question": "Mi az IPTV?",
@@ -141,15 +174,23 @@
         {
           "question": "Hogyan mondhatom fel?",
           "answer": "Nem szükséges hosszú távú szerződés. Az előfizetésed nem újul automatikusan meg. Egyszerűen ne újítsd meg, amikor a csomagod lejár."
+        },
+        {
+          "question": "Kérhetek visszatérítést?",
+          "answer": "Igen. Világos visszatérítési politikát kínálunk. Ha nem vagy elégedett a szolgáltatással, vedd fel velünk a kapcsolatot WhatsApp-on a visszatérítési határidőn belül, és a feltételeink szerint intézzük a visszatérítést. A részletekért lásd a Visszatérítési politika oldalt."
+        },
+        {
+          "question": "Hogyan kapom meg a belépési adataimat?",
+          "answer": "A fizetés jóváhagyása után azonnal e-mailben és/vagy WhatsApp-on küldjük a belépési adatokat (M3U URL vagy Xtream Codes: szerver URL, felhasználónév, jelszó)—általában perceken belül. Nézd meg a postafiókodat és a spam mappát. Ha nem kapsz semmit, írj nekünk WhatsApp-on, és újraküldjük."
         }
       ]
     },
     "testimonials": {
       "title": "Amit ügyfeleink mondanak",
-      "subtitle": "Nézd, miért választják az ügyfelek a Hungary IPTV-t a streameléshez—minőség, támogatás és ár-érték arány.",
+      "subtitle": "Nézd, miért választják az ügyfelek a StreamAtlas-t a streameléshez—minőség, támogatás és ár-érték arány.",
       "items": [
         {
-          "quote": "A legjobb IPTV szolgáltatás, amit Magyarországon használtam. Kiváló minőség és támogatás!",
+          "quote": "A legjobb IPTV szolgáltatás, amit használtam. Kiváló minőség és támogatás!",
           "name": "Péter K."
         },
         {
@@ -187,7 +228,7 @@
     "terms": "Felhasználási feltételek",
     "refund": "Visszatérítési politika",
     "privacy": "Adatvédelmi irányelvek",
-    "copyright": "© 2025 Hungary IPTV. Minden jog fenntartva."
+    "copyright": "© 2025 StreamAtlas. Minden jog fenntartva."
   },
   "pricing": {
     "title": "Válaszd a csomagodat",
@@ -198,31 +239,31 @@
       {
         "id": "monthly",
         "name": "Havi",
-        "price": "15",
+        "price": "$17",
         "period": "/hó",
-        "features": ["50 000+ csatorna", "Nincs fagyás", "Ingyenes útmutatás", "FHD, 4K, 8K", "Minden eszköz", "24/7 támogatás"]
+        "features": ["50 000+ csatorna", "Nincs fagyás", "Ingyenes útmutatás", "FHD, 4K, 8K", "Minden eszköz", "Adatvédelem és beépített VPN", "Ingyenes automatikus frissítések", "Anti-freeze TM 9.8 technológia", "Elérhető EPG", "24/7 támogatás"]
       },
       {
         "id": "3months",
         "name": "3 Hónap",
-        "price": "30",
+        "price": "$37",
         "period": "/3 hónap",
-        "features": ["50 000+ csatorna", "Nincs fagyás", "Ingyenes útmutatás", "FHD, 4K, 8K", "Minden eszköz", "24/7 támogatás", "17% megtakarítás"]
+        "features": ["50 000+ csatorna", "Nincs fagyás", "Ingyenes útmutatás", "FHD, 4K, 8K", "Minden eszköz", "Adatvédelem és beépített VPN", "Ingyenes automatikus frissítések", "Anti-freeze TM 9.8 technológia", "Elérhető EPG", "24/7 támogatás", "17% megtakarítás"]
       },
       {
         "id": "6months",
         "name": "6 Hónap",
-        "price": "40",
+        "price": "$49",
         "period": "/6 hónap",
-        "features": ["50 000+ csatorna", "Nincs fagyás", "Ingyenes útmutatás", "FHD, 4K, 8K", "Minden eszköz", "24/7 támogatás", "25% megtakarítás"],
+        "features": ["50 000+ csatorna", "Nincs fagyás", "Ingyenes útmutatás", "FHD, 4K, 8K", "Minden eszköz", "Adatvédelem és beépített VPN", "Ingyenes automatikus frissítések", "Anti-freeze TM 9.8 technológia", "Elérhető EPG", "24/7 támogatás", "25% megtakarítás"],
         "popular": true
       },
       {
         "id": "yearly",
         "name": "Éves",
-        "price": "60",
+        "price": "$77",
         "period": "/év",
-        "features": ["50 000+ csatorna", "Nincs fagyás", "Ingyenes útmutatás", "FHD, 4K, 8K", "Minden eszköz", "24/7 támogatás", "33% megtakarítás"]
+        "features": ["50 000+ csatorna", "Nincs fagyás", "Ingyenes útmutatás", "FHD, 4K, 8K", "Minden eszköz", "Adatvédelem és beépített VPN", "Ingyenes automatikus frissítések", "Anti-freeze TM 9.8 technológia", "Elérhető EPG", "24/7 támogatás", "33% megtakarítás"]
       }
     ]
   },
@@ -230,7 +271,7 @@
     "title": "Rólunk",
     "story": {
       "title": "Történetünk",
-      "content": "A Hungary IPTV annak született, hogy primium televíziós streamelést hozzon Magyarországra és a világ többi részére. Úgy gondoljuk, mindenkinek jár a magas minőségű szórakoztatás tisztességes áron."
+      "content": "A StreamAtlas annak született, hogy primium televíziós streamelést hozzon prémium streamelést világszerte. Úgy gondoljuk, mindenkinek jár a magas minőségű szórakoztatás tisztességes áron."
     },
     "mission": {
       "title": "Missziónk",
@@ -247,23 +288,23 @@
   },
   "blog": {
     "title": "Blog",
-    "subtitle": "Hírek, tippek és frissítések a Hungary IPTV-től.",
+    "subtitle": "Hírek, tippek és frissítések a StreamAtlas-től.",
     "readMore": "Tovább olvasom",
     "backToBlog": "Vissza a bloghoz"
   },
   "terms": {
     "title": "Felhasználási feltételek",
-    "metaDescription": "Hungary IPTV felhasználási feltételei. Olvassa el feltételeinket és kikötéseinket.",
+    "metaDescription": "StreamAtlas felhasználási feltételei. Olvassa el feltételeinket és kikötéseinket.",
     "content": "Helyfoglaló tartalom a felhasználási feltételekhez. Cseréld ki az aktuális feltételeidre."
   },
   "refund": {
     "title": "Visszatérítési politika",
-    "metaDescription": "Hungary IPTV visszatérítési politikája. Tudjon meg többet garanciánkról és visszatérítési feltételeinkről.",
+    "metaDescription": "StreamAtlas visszatérítési politikája. Tudjon meg többet garanciánkról és visszatérítési feltételeinkről.",
     "content": "Helyfoglaló tartalom a visszatérítési politikához. Cseréld ki az aktuális politikádra."
   },
   "privacy": {
     "title": "Adatvédelmi irányelvek",
-    "metaDescription": "Hungary IPTV adatvédelmi irányelvei. Hogyan gyűjtjük, használjuk és védjük adatait.",
+    "metaDescription": "StreamAtlas adatvédelmi irányelvei. Hogyan gyűjtjük, használjuk és védjük adatait.",
     "content": "Helyfoglaló tartalom az adatvédelmi irányelvekhez. Cseréld ki az aktuális irányelveidre."
   }
 }

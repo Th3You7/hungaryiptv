@@ -26,7 +26,7 @@ export function PricingCard({
 
   return (
     <article
-      className={`relative flex flex-col rounded-lg border bg-surface p-6 transition-colors hover:border-primary/50 ${
+      className={`relative flex flex-col rounded-2xl border bg-surface p-6 transition-colors hover:border-primary/50 ${
         popular ? 'border-primary' : 'border-surface-elevated'
       }`}
     >
@@ -58,7 +58,7 @@ export function PricingCard({
         href={whatsappUrl}
         target="_blank"
         rel="noopener noreferrer"
-        className="flex min-h-[44px] items-center justify-center rounded bg-primary px-4 py-3 font-medium text-white transition-colors hover:bg-[#f40612]"
+        className="flex min-h-[44px] items-center justify-center rounded-xl bg-primary px-4 py-3 font-medium text-white transition-colors hover:bg-[#f40612]"
       >
         {ctaText}
       </Link>

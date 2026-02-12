@@ -14,28 +14,28 @@ const sourceSans = Source_Sans_3({
   subsets: ['latin'],
 });
 
-const siteUrl = process.env.NEXT_PUBLIC_SITE_URL ?? 'https://hungaryiptv.net';
+const siteUrl = process.env.NEXT_PUBLIC_SITE_URL ?? 'https://streamatlas.com';
 
 export const metadata: Metadata = {
   metadataBase: new URL(siteUrl),
   title: {
-    default: 'Hungary IPTV | Best IPTV in Hungary',
-    template: '%s | Hungary IPTV',
+    default: 'StreamAtlas | Best IPTV Service Provider USA, Canada and Europe – Premium IPTV Worldwide',
+    template: '%s | StreamAtlas',
   },
-  description: 'Stream 50,000+ channels in FHD, 4K and 8K. Best IPTV service in Hungary. No freeze, free guidance.',
-  keywords: ['Hungary IPTV', 'IPTV Hungary', 'IPTV', 'streaming', 'live TV', '50,000+ channels', 'FHD 4K 8K'],
+  description: 'Stream 50,000+ channels in FHD, 4K and 8K. Strong servers, no freeze. Best IPTV for USA, Canada and Europe—premium quality worldwide.',
+  keywords: ['StreamAtlas', 'IPTV', 'streaming', 'live TV', '50,000+ channels', 'FHD 4K 8K', 'premium IPTV', 'IPTV USA', 'IPTV Canada', 'IPTV Europe'],
   openGraph: {
     type: 'website',
-    siteName: 'Hungary IPTV',
-    images: [{ url: '/images/logo/logo.webp', width: 512, height: 512, alt: 'huIPTV' }],
+    siteName: 'StreamAtlas',
+    images: [{ url: '/images/logo/logo.webp', width: 512, height: 512, alt: 'StreamAtlas' }],
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'Hungary IPTV | Best IPTV in Hungary',
-    description: 'Stream 50,000+ channels in FHD, 4K and 8K. Best IPTV in Hungary.',
+    title: 'StreamAtlas | Best IPTV Service Provider USA, Canada and Europe – Premium IPTV Worldwide',
+    description: 'Stream 50,000+ channels in FHD, 4K and 8K. Strong servers, no freeze. Premium IPTV worldwide.',
   },
   icons: {
-    icon: '/images/logo/logo.webp',
+    icon: '/favicon.ico',
     apple: '/images/logo/logo.webp',
   },
   alternates: {

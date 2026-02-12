@@ -9,7 +9,7 @@ interface SportEventCardProps {
 export function SportEventCard({ name, image }: SportEventCardProps) {
   const src = image ? `/images/sports/${image}.webp` : placeholders.sport(name);
   return (
-    <div className="relative w-[160px] shrink-0 overflow-hidden rounded-lg bg-surface aspect-[853/1280] min-[480px]:w-[200px] sm:w-[213px] md:w-[240px] lg:w-[256px]">
+    <div className="relative w-[160px] shrink-0 overflow-hidden rounded-xl bg-surface aspect-[853/1280] min-[480px]:w-[200px] sm:w-[213px] md:w-[240px] lg:w-[256px]">
       <Image
         src={src}
         alt={name}

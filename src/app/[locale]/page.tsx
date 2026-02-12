@@ -6,19 +6,28 @@ import { ServiceCard } from '@/components/home/ServiceCard';
 import { Carousel } from '@/components/Carousel';
 import { ChannelCard } from '@/components/home/ChannelCard';
 import { SportEventCard } from '@/components/home/SportEventCard';
+import { SeriesCard } from '@/components/home/SeriesCard';
 import { PricingCard } from '@/components/home/PricingCard';
 import Image from 'next/image';
 import { FAQ } from '@/components/home/FAQ';
 import { TestimonialCard } from '@/components/home/TestimonialCard';
 
 const titles: Record<Locale, string> = {
-  en: 'Hungary IPTV | Best IPTV in Hungary',
-  hu: 'Hungary IPTV | Legjobb IPTV Magyarországon',
+  en: 'StreamAtlas | Best IPTV Service Provider USA, Canada and Europe – Premium IPTV Worldwide',
+  hu: 'StreamAtlas | Legjobb IPTV szolgáltató USA, Kanada és Európa – Prémium IPTV világszerte',
+  no: 'StreamAtlas | Beste IPTV USA, Canada og Europa – Premium IPTV verdensvide',
+  de: 'StreamAtlas | Bester IPTV-Anbieter USA, Kanada und Europa – Premium IPTV weltweit',
+  sv: 'StreamAtlas | Bästa IPTV USA, Kanada och Europa – Premium IPTV världen över',
+  da: 'StreamAtlas | Bedste IPTV USA, Canada og Europa – Premium IPTV verdensvide',
 };
 
 const descriptions: Record<Locale, string> = {
-  en: 'Stream 50,000+ channels in FHD, 4K and 8K. Best IPTV service in Hungary. No freeze, free guidance.',
-  hu: 'Streamelj 50 000+ csatornát FHD, 4K és 8K minőségben. Legjobb IPTV szolgáltatás Magyarországon. Nincs fagyás, ingyenes útmutatás.',
+  en: 'Stream 50,000+ channels in FHD, 4K and 8K. Strong servers, no freeze. Best IPTV for USA, Canada and Europe—premium quality worldwide.',
+  hu: 'Streamelj 50 000+ csatornát FHD, 4K és 8K-ban. Erős szerverek, nincs fagyás. Legjobb IPTV USA, Kanada és Európa számára—prémium minőség világszerte.',
+  no: 'Stream over 50 000 kanaler i FHD, 4K og 8K. Sterke servere, ingen frysing. Beste IPTV for USA, Canada og Europa—premium kvalitet verdensvide.',
+  de: 'Streamen Sie 50.000+ Kanäle in FHD, 4K und 8K. Starke Server, kein Ruckler. Bester IPTV für USA, Kanada und Europa—Premium-Qualität weltweit.',
+  sv: 'Streama 50 000+ kanaler i FHD, 4K och 8K. Starka servrar, ingen frysning. Bästa IPTV för USA, Kanada och Europa—premiumkvalitet världen över.',
+  da: 'Stream over 50.000 kanaler i FHD, 4K og 8K. Stærke servere, ingen fryser. Bedste IPTV til USA, Canada og Europa—premium kvalitet verdensvide.',
 };
 
 export function generateStaticParams() {
@@ -47,7 +56,7 @@ export default async function HomePage({
 }) {
   const { locale } = await params;
   const messages = await getMessages(locale as Locale);
-  const { hero, services, channels, sports, pricing, devices, faq, testimonials } =
+  const { hero, services, channels, sports, series, pricing, devices, dvr, faq, testimonials } =
     messages.home;
 
   return (
@@ -90,6 +99,12 @@ export default async function HomePage({
           ))}
         </Carousel>
 
+        <Carousel title={series.title} subtitle={series.subtitle}>
+          {series.items.map((item: { name: string; image: string }) => (
+            <SeriesCard key={item.name} name={item.name} image={item.image} />
+          ))}
+        </Carousel>
+
         <section id="pricing" className="scroll-mt-20 py-12 md:py-16">
           <h2 className={`font-heading text-2xl font-bold text-foreground md:text-3xl ${pricing.subtitle ? 'mb-2' : 'mb-8'}`}>
             {pricing.title}
@@ -119,7 +134,7 @@ export default async function HomePage({
             {devices.title}
           </h2>
           <p className="mb-8 text-muted">{devices.subtitle}</p>
-          <div className="overflow-hidden rounded-lg border border-surface-elevated bg-surface">
+          <div className="overflow-hidden rounded-2xl border border-surface-elevated bg-surface">
             <Image
               src="/images/devices/devices.webp"
               alt="Stream on all devices"
@@ -129,6 +144,27 @@ export default async function HomePage({
               sizes="(max-width: 768px) 100vw, 1200px"
             />
           </div>
+        </section>
+
+        <section className="py-12 md:py-16">
+          <h2 className={`font-heading text-2xl font-bold text-foreground md:text-3xl ${dvr.subtitle ? 'mb-2' : 'mb-8'}`}>
+            {dvr.title}
+          </h2>
+          {dvr.subtitle && (
+            <p className="mb-8 text-muted">{dvr.subtitle}</p>
+          )}
+          <div className="grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
+            {(dvr.items as { title: string; description: string }[]).map((item) => (
+              <ServiceCard
+                key={item.title}
+                title={item.title}
+                description={item.description}
+              />
+            ))}
+          </div>
+          {dvr.closing && (
+            <p className="mt-8 text-muted">{dvr.closing}</p>
+          )}
         </section>
 
         <FAQ title={faq.title} subtitle={faq.subtitle} items={faq.items} />

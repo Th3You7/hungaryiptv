@@ -16,7 +16,7 @@ export async function generateMetadata({
   const { locale } = await params;
   if (!locales.includes(locale as Locale)) return {};
   const messages = await getMessages(locale as Locale);
-  const title = `${messages.blog.title} | Hungary IPTV`;
+  const title = `${messages.blog.title} | StreamAtlas`;
   const description =
     (messages.blog as { metaDescription?: string }).metaDescription ?? messages.blog.subtitle;
   return {
@@ -47,7 +47,7 @@ export default async function BlogPage({
           <Link
             key={post.slug}
             href={`/${locale}/blog/${post.slug}`}
-            className="block rounded-lg border border-surface-elevated bg-surface p-6 transition-colors hover:border-primary/50"
+            className="block rounded-2xl border border-surface-elevated bg-surface p-6 transition-colors hover:border-primary/50"
           >
             <time className="text-sm text-muted" dateTime={post.date}>
               {post.date}

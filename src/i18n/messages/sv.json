@@ -1,0 +1,177 @@
+{
+  "nav": {
+    "home": "Hem",
+    "pricing": "Priser",
+    "about": "Om oss",
+    "blog": "Blogg",
+    "startTrial": "Starta gratis provperiod"
+  },
+  "home": {
+    "hero": {
+      "title": "Bästa IPTV USA, Kanada och Europa – Premium IPTV världen över",
+      "description": "Streama 50 000+ kanaler i FHD, 4K och 8K. Starka servrar, ingen frysning. Titta på live-TV, sport, filmer och serier på vilken enhet som helst. Premium IPTV för USA, Kanada och Europa.",
+      "cta": "Se abonnemang",
+      "ctaTrial": "Starta gratis provperiod"
+    },
+    "services": {
+      "title": "Våra tjänster",
+      "subtitle": "StreamAtlas ger dig premium-streaming utan frysning, gratis vägledning och 50 000+ kanaler i FHD, 4K och 8K.",
+      "items": [
+        {"title": "HD & 4K kvalitet", "description": "Kristallklar bildkvalitet med full stöd för Full HD och 4K på kompatibla enheter. Njut av filmer, sport och live-TV i skarpaste detalj med minimal buffring."},
+        {"title": "24/7 support", "description": "Vårt supportteam är tillgängligt dygnet runt. Få snabba svar via WhatsApp."},
+        {"title": "Alla enheter", "description": "Titta på Smart TV, Android, iOS, Fire Stick eller vilken enhet som helst. Ett abonnemang ger obegränsade skärmar för hela familjen."},
+        {"title": "Inget bindningstid", "description": "Flexibla abonnemang utan långtidsförbindelser. Avsluta när som helst utan dolda avgifter."},
+        {"title": "Omedelbar aktivering", "description": "Din tjänst aktiveras direkt efter betalning. Ingen väntan—börja titta inom minuter."},
+        {"title": "Nöjd eller pengarna tillbaka", "description": "Vi står bakom vår tjänst. Tydlig återbetalningspolicy. Din tillfredsställelse är vår prioritet."}
+      ]
+    },
+    "channels": {
+      "title": "Kanaler världen över",
+      "subtitle": "Bästa StreamAtlas-kanalutbudet: sport, nyheter, filmer och underhållning från hela världen.",
+      "items": [
+        {"name": "BBC", "image": "ailnh6899rqmqqmkgcr7"},
+        {"name": "CNN", "image": "l3tg90dlgcy9o1aovcnp"},
+        {"name": "Disney", "image": "pdimefqyhjnmiffo1rbx"},
+        {"name": "Sky", "image": "po6mfcsypsfndu8kcnnd"},
+        {"name": "Viaplay", "image": "viaplay"},
+        {"name": "Videoland", "image": "videoland"},
+        {"name": "Eurosport", "image": "vusbchgfvoc9j2d4itxd"},
+        {"name": "National Geographic", "image": "wihfqvokbmwnrip9y8zd"},
+        {"name": "Discovery", "image": "wiv6savggkgunzatehtn"},
+        {"name": "Sport TV", "image": "xmix0bcxtukuyppzqnjs"},
+        {"name": "HBO", "image": "xza5bjxn5cs0uiny8wrr"}
+      ]
+    },
+    "sports": {
+      "title": "Sport och evenemang",
+      "subtitle": "StreamAtlas streamar live sport i HD—Premier League, La Liga, Serie A, Bundesliga och mer.",
+      "items": [
+        {"name": "Premier League", "image": "premier_league"},
+        {"name": "La Liga", "image": "liga"},
+        {"name": "Serie A", "image": "serie_a"},
+        {"name": "Bundesliga", "image": "bundesliga"},
+        {"name": "Liga Portugal", "image": "liga_por"}
+      ]
+    },
+    "series": {
+      "title": "Serier och on demand",
+      "subtitle": "Titta på tusentals serier och filmer on demand. Populära streamingtjänster och mer på ett ställe.",
+      "items": [
+        {"name": "Apple TV+", "image": "apple_tv"},
+        {"name": "Disney+", "image": "disney+"},
+        {"name": "HBO Max", "image": "hbo_max"},
+        {"name": "Hulu", "image": "hulu"},
+        {"name": "Paramount+", "image": "paramount+"},
+        {"name": "Peacock", "image": "peacock"},
+        {"name": "Prime Video", "image": "prime_video"},
+        {"name": "Showtime", "image": "showtime"}
+      ]
+    },
+    "pricing": {
+      "title": "Välj ditt abonnemang",
+      "subtitle": "Prisvärda StreamAtlas-abonnemang med 50 000+ kanaler, ingen frysning och gratis vägledning.",
+      "cta": "Köp nu",
+      "popular": "Populär",
+      "plans": [
+        {"id": "monthly", "name": "Månadsvis", "price": "$17", "period": "/månad", "features": ["50 000+ kanaler", "Ingen frysning", "Gratis vägledning", "FHD, 4K, 8K", "Alla enheter", "Integritetsskydd och inbyggd VPN", "Gratis auto-uppdateringar", "Anti-freeze TM 9.8-teknologi", "Tillgänglig EPG", "24/7 support"]},
+        {"id": "3months", "name": "3 månader", "price": "$37", "period": "/3 mån", "features": ["50 000+ kanaler", "Ingen frysning", "Gratis vägledning", "FHD, 4K, 8K", "Alla enheter", "Integritetsskydd och inbyggd VPN", "Gratis auto-uppdateringar", "Anti-freeze TM 9.8-teknologi", "Tillgänglig EPG", "24/7 support", "Spara 17%"]},
+        {"id": "6months", "name": "6 månader", "price": "$49", "period": "/6 mån", "features": ["50 000+ kanaler", "Ingen frysning", "Gratis vägledning", "FHD, 4K, 8K", "Alla enheter", "Integritetsskydd och inbyggd VPN", "Gratis auto-uppdateringar", "Anti-freeze TM 9.8-teknologi", "Tillgänglig EPG", "24/7 support", "Spara 25%"], "popular": true},
+        {"id": "yearly", "name": "Årligen", "price": "$77", "period": "/år", "features": ["50 000+ kanaler", "Ingen frysning", "Gratis vägledning", "FHD, 4K, 8K", "Alla enheter", "Integritetsskydd och inbyggd VPN", "Gratis auto-uppdateringar", "Anti-freeze TM 9.8-teknologi", "Tillgänglig EPG", "24/7 support", "Spara 33%"]}
+      ]
+    },
+    "devices": {
+      "title": "Streama på alla enheter",
+      "subtitle": "Med StreamAtlas låter ett abonnemang dig titta överallt—TV, telefon, surfplatta eller laptop.",
+      "items": [{"name": "Smart TV"}, {"name": "Telefon"}, {"name": "Surfplatta"}, {"name": "Laptop"}]
+    },
+    "dvr": {
+      "title": "Interaktivitet & DVR: Kontrollera vad du tittar på",
+      "subtitle": "Modern IPTV ger dig kontroll över din tittning. Ingen binding till sändningstider.",
+      "items": [
+        {"title": "Pausa, spola tillbaka, framåt", "description": "Kontrollera live-TV. Pausa, spola tillbaka eller framåt—missa aldrig ett ögonblick."},
+        {"title": "Catch-up TV", "description": "Missa aldrig dina favoritprogram. Titta på tidigare avsnitt när det passar dig."},
+        {"title": "Moln-DVR", "description": "Spela in och titta senare. Inspelningarna lagras i molnet och är tillgängliga på alla enheter."}
+      ],
+      "closing": "Denna flexibilitet gör TV till en personlig underhållningshub."
+    },
+    "faq": {
+      "title": "Vanliga frågor",
+      "subtitle": "Frågor om StreamAtlas: installation, betalning, enheter och support.",
+      "items": [
+        {"question": "Vad är IPTV?", "answer": "IPTV (Internet Protocol Television) levererar TV-innehåll över internet istället för kabel eller satellit. Titta på live-TV, filmer och serier på vilken enhet som helst."},
+        {"question": "Hur betalar jag?", "answer": "Vi accepterar kreditkort, PayPal och banköverföring. Kontakta vår support via WhatsApp för att slutföra beställningen."},
+        {"question": "Vilka enheter stöds?", "answer": "Vår tjänst fungerar på Smart TV, Android TV, Fire Stick, Android/iOS, Windows, Mac och många IPTV-boxar."},
+        {"question": "Finns det gratis provperiod?", "answer": "Vi erbjuder 24 timmars provperiod för nya kunder. Kontakta oss via WhatsApp."},
+        {"question": "Hur avslutar jag?", "answer": "Inget bindningsavtal. Abonnemanget förnyas inte automatiskt. Förny bara inte när perioden löper ut."},
+        {"question": "Kan jag få återbetalning?", "answer": "Ja. Vi har en tydlig återbetalningspolicy. Är du inte nöjd med tjänsten, kontakta oss via WhatsApp inom återbetalningsfristen så behandlar vi återbetalningen enligt våra villkor. Se sidan Återbetalningspolicy för detaljer."},
+        {"question": "Hur får jag mina inloggningsuppgifter?", "answer": "Direkt efter att betalningen bekräftats skickar vi dina inloggningsuppgifter (M3U-URL eller Xtream Codes: server-URL, användarnamn och lösenord) via e-post och/eller WhatsApp—vanligtvis inom minuter. Kolla inkorgen och skräppost. Får du dem inte, kontakta oss via WhatsApp så skickar vi dem igen."}
+      ]
+    },
+    "testimonials": {
+      "title": "Vad våra kunder säger",
+      "subtitle": "Se varför kunder väljer StreamAtlas—kvalitet, support och värde.",
+      "items": [
+        {"quote": "Bästa IPTV-tjänsten jag använt. Utmärkt kvalitet och support!", "name": "Peter K."},
+        {"quote": "Utmärkt valuta för pengarna. Alla favoritkanaler på ett ställe.", "name": "Anna M."},
+        {"quote": "Snabb installation, fungerar perfekt på Smart TV och telefon.", "name": "Lars S."},
+        {"quote": "Mycket pålitliga strömmar, ingen buffring. Support svarade på minuter.", "name": "David T."},
+        {"quote": "Äntligen IPTV med all sport i HD. Mycket nöjd.", "name": "Mark R."},
+        {"quote": "Rättvist pris och omedelbar aktivering. Tittade inom 10 minuter.", "name": "Sarah L."},
+        {"quote": "Kund i 6 månader. Inga problem. Bästa beslutet för hemmunderhållning.", "name": "James N."},
+        {"quote": "Tydlig bild, många kanaler, supporten hjälper verkligen. 10/10 rekommenderas.", "name": "Elena V."}
+      ]
+    }
+  },
+  "footer": {
+    "terms": "Användarvillkor",
+    "refund": "Återbetalningspolicy",
+    "privacy": "Integritetspolicy",
+    "copyright": "© 2025 StreamAtlas. Alla rättigheter förbehållna."
+  },
+  "pricing": {
+    "title": "Välj abonnemang",
+    "subtitle": "Alla abonnemang inkluderar 50 000+ kanaler och 24/7 support.",
+    "cta": "Köp nu",
+    "popular": "Populär",
+    "plans": [
+      {"id": "monthly", "name": "Månadsvis", "price": "$17", "period": "/månad", "features": ["50 000+ kanaler", "Ingen frysning", "Gratis vägledning", "FHD, 4K, 8K", "Alla enheter", "Integritetsskydd och inbyggd VPN", "Gratis auto-uppdateringar", "Anti-freeze TM 9.8-teknologi", "Tillgänglig EPG", "24/7 support"]},
+      {"id": "3months", "name": "3 månader", "price": "$37", "period": "/3 mån", "features": ["50 000+ kanaler", "Ingen frysning", "Gratis vägledning", "FHD, 4K, 8K", "Alla enheter", "Integritetsskydd och inbyggd VPN", "Gratis auto-uppdateringar", "Anti-freeze TM 9.8-teknologi", "Tillgänglig EPG", "24/7 support", "Spara 17%"]},
+      {"id": "6months", "name": "6 månader", "price": "$49", "period": "/6 mån", "features": ["50 000+ kanaler", "Ingen frysning", "Gratis vägledning", "FHD, 4K, 8K", "Alla enheter", "Integritetsskydd och inbyggd VPN", "Gratis auto-uppdateringar", "Anti-freeze TM 9.8-teknologi", "Tillgänglig EPG", "24/7 support", "Spara 25%"], "popular": true},
+      {"id": "yearly", "name": "Årligen", "price": "$77", "period": "/år", "features": ["50 000+ kanaler", "Ingen frysning", "Gratis vägledning", "FHD, 4K, 8K", "Alla enheter", "Integritetsskydd och inbyggd VPN", "Gratis auto-uppdateringar", "Anti-freeze TM 9.8-teknologi", "Tillgänglig EPG", "24/7 support", "Spara 33%"]}
+    ]
+  },
+  "about": {
+    "title": "Om oss",
+    "story": {"title": "Vår historia", "content": "StreamAtlas grundades för att erbjuda premium TV-streaming världen över. Vi tror att alla förtjänar tillgång till högkvalitativ underhållning till rättvisa priser."},
+    "mission": {"title": "Vårt uppdrag", "content": "Leverera den bästa IPTV-upplevelsen med pålitliga strömmar, stort kanalutbud och exceptionell kundsupport."},
+    "values": {
+      "title": "Våra värderingar",
+      "items": [
+        {"title": "Kvalitet", "description": "Vi levererar HD- och 4K-strömmar med minimal buffring."},
+        {"title": "Pålitlighet", "description": "99,9% drifttid och ständiga kanaluppdateringar."},
+        {"title": "Support", "description": "24/7 support via WhatsApp."}
+      ]
+    }
+  },
+  "blog": {
+    "title": "Blogg",
+    "subtitle": "Nyheter, tips och uppdateringar från StreamAtlas.",
+    "readMore": "Läs mer",
+    "backToBlog": "Tillbaka till bloggen"
+  },
+  "terms": {
+    "title": "Användarvillkor",
+    "metaDescription": "StreamAtlas användarvillkor. Läs våra villkor och bestämmelser.",
+    "content": "Platshållare för villkor. Ersätt med dina faktiska villkor."
+  },
+  "refund": {
+    "title": "Återbetalningspolicy",
+    "metaDescription": "StreamAtlas återbetalningspolicy. Pengarna-tillbaka-garanti och villkor.",
+    "content": "Platshållare för återbetalningspolicy. Ersätt med din faktiska policy."
+  },
+  "privacy": {
+    "title": "Integritetspolicy",
+    "metaDescription": "StreamAtlas integritetspolicy. Hur vi samlar in, använder och skyddar dina data.",
+    "content": "Platshållare för integritet. Ersätt med din faktiska policy."
+  }
+}

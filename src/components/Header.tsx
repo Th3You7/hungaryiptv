@@ -21,13 +21,13 @@ export function Header({ locale, messages }: HeaderProps) {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
 
   return (
-    <header className="sticky top-0 z-50 border-b border-surface-elevated bg-background/95 backdrop-blur">
+    <header className="sticky top-0 z-50 rounded-b-2xl border-b border-surface-elevated bg-background/95 backdrop-blur md:rounded-b-3xl">
       <div className="mx-auto flex max-w-6xl items-center justify-between px-4 py-4 md:px-8">
         <Link
           href={`/${locale}`}
-          className="font-heading text-3xl font-bold tracking-tight text-primary transition-colors hover:text-[#f40612] md:text-4xl"
+          className="brand-curve font-heading text-3xl font-bold tracking-tight text-primary transition-colors hover:text-[#f40612] md:text-4xl"
         >
-          huIPTV
+          StreamAtlas
         </Link>
 
         <nav
@@ -62,7 +62,7 @@ export function Header({ locale, messages }: HeaderProps) {
         <div className="flex items-center gap-3">
           <Link
             href={`/${locale}#pricing`}
-            className="hidden min-h-[44px] items-center justify-center rounded bg-primary px-4 py-2 text-sm font-medium text-white transition-colors hover:bg-[#f40612] md:flex"
+            className="hidden min-h-[44px] items-center justify-center rounded-xl bg-primary px-4 py-2 text-sm font-medium text-white transition-colors hover:bg-[#f40612] md:flex"
           >
             {messages.nav.startTrial}
           </Link>

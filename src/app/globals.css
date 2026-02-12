@@ -10,6 +10,10 @@
   --color-text: #ffffff;
   --color-text-muted: #b3b3b3;
   --color-text-dim: #808080;
+  /* Netflix-style curve */
+  --radius-card: 0.5rem;
+  --radius-button: 0.375rem;
+  --radius-sm: 0.25rem;
 }
 
 @theme inline {
@@ -37,6 +41,16 @@ body {
 
 .font-heading {
   font-family: var(--font-heading), system-ui, sans-serif;
+}
+
+/* Netflix-style subtle curve on brand logo */
+.brand-curve {
+  display: inline-block;
+  transform: skewX(-3deg);
+  letter-spacing: -0.02em;
+}
+.brand-curve:hover {
+  transform: skewX(-3deg);
 }
 
 .scrollbar-hide::-webkit-scrollbar {
